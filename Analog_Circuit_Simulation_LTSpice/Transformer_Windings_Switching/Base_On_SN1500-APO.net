@@ -1,0 +1,36 @@
+* Z:\media\8C5E4AF45E4AD71C\Projekty\Laboratory_Supplier_With_Tft_Lcd_And_Touch_Panel\Analog_Circuit_Simulation_LTSpice\Transformer_Windings_Switching\Base_On_SN1500-APO.asc
+DR1 0 N001 MBR20100CT
+DR2 N001 N002 MBR20100CT
+DR3 N005 N002 MBR20100CT
+DR4 0 N005 MBR20100CT
+V1 N001 +18V SINE(0 14 50)
+V2 +18V N005 SINE(0 14 50)
+C1 +18V 0 1000µF
+D1 +18V N003 MBR20100CT
+Q2 N006 N007 N008 0 BC547B
+R2 N002 N006 1k
+R3 N004 N006 10k
+M1 N003 N004 N002 N002 IRF7207
+R6 N003 0 1Meg
+R4 N007 0 4k7
+C3 +5V 0 470nF
+R5 +Uwyj N007 10k
+C2 N003 0 2200µF
+V3 +5V 0 5V
+V4 +Uwyj 0 PWL(1 14 2 15 3 16 4 17 5 18 6 19 7 20 8 19 9 18 10 17 11 16 12 15 13 14 14 13)
+R8_LOAD +18V/+36V 0 100R
+L1 N003 +18V/+36V 20mH
+C4 +18V/+36V 0 2200µF
+D2 0 N008 1N750
+.model D D
+.lib Z:\home\mwolowik\LTSpice\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib Z:\home\mwolowik\LTSpice\lib\cmp\standard.bjt
+.model NMOS NMOS
+.model PMOS PMOS
+.lib Z:\home\mwolowik\LTSpice\lib\cmp\standard.mos
+.tran 0 15 10m 1
+* Wymuszenia symulacji sumulacji
+.backanno
+.end

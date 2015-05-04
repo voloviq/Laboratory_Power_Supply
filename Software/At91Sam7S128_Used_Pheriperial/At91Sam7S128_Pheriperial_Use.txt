@@ -1,0 +1,105 @@
+AT91Sam7s128 used pheriperial list:
+
+
+
+
+
+
+PWM Pheriperial
+
+1. To regulate PWM brightness used PIN44 - PA2(PWM2)
+
+2. To regulate PWM current limit used PIN47 - PA1(PWM1)
+
+3. To regulate PWM voltage level used PIN48 - PA0(PWM0)
+
+
+
+
+ADC Pheripierial
+
+1. To measure voltage level used PIN3 - AD4
+
+2. To measure current level used PIN4 - AD5
+
+3. To measure temperature sensor 1 used PIN5 - AD6
+
+4. To measure temperature sensor 2 used PIN6 - AD7
+
+
+
+
+SPI Pheriperial
+
+1. Chip select CS used PIN28 - PA11(NPCS0)
+
+2. MISO used PIN27 - PA12(MISO)
+
+3. MOSI used PIN22 - PA13(MOSI)
+
+4. SPCK used PIN21 - PA14(SPCK)
+
+
+
+
+USB Pheriperial
+
+1. D+ is connected to PIN57 - DDP
+
+1. D- is connected to PIN56 - DDM
+
+
+
+
+GPIO Pheriperial
+
+1. NOKIA_N73 display 'D0' signal connected to PIN11 - PA21 - configure this pin to OUTPUT
+
+2. NOKIA_N73 display 'D1' signal connected to PIN34 - PA6 - configure this pin to OUTPUT
+
+3. NOKIA_N73 display 'D2' signal connected to PIN20 - PA15 - configure this pin to OUTPUT
+
+4. NOKIA_N73 display 'D3' signal connected to PIN32 - PA7 - configure this pin to OUTPUT
+
+5. NOKIA_N73 display 'D4' signal connected to PIN19 - PA16 - configure this pin to OUTPUT
+
+6. NOKIA_N73 display 'D5' signal connected to PIN31 - PA8 - configure this pin to OUTPUT
+
+7. NOKIA_N73 display 'D6' signal connected to PIN13 - PA19 - configure this pin to OUTPUT
+
+8. NOKIA_N73 display 'D7' signal connected to PIN30 - PA9 - configure this pin to OUTPUT
+
+9. NOKIA_N73 display 'RDX' signal connected to PIN36 - PA4 - configure this pin to OUTPUT
+
+10. NOKIA_N73 display 'WRX' signal connected to PIN10 - PA18 - configure this pin to OUTPUT
+
+11. NOKIA_N73 display 'RESX' signal connected to PIN15 - PA23 - configure this pin to OUTPUT
+
+12. NOKIA_N73 display 'CSX' signal connected to PIN14 - PA22 - configure this pin to OUTPUT
+
+13. NOKIA_N73 display 'D/CX' signal connected to PIN35 - PA5 - configure this pin to OUTPUT
+
+14. NOKIA_N73 display 'TE' signal connected to PIN29 - PA10 - configure this pin to INPUT
+
+15. General Purpose should be check 'Pin31' signal connected to PIN37 - PA27 - configure this pin to OUTPUT free to use
+
+16. Drive USB load line D+ 'Pin32' signal connected to PIN9 - PA17 - configure this pin to OUTPUT 
+
+17. Level converter direction 'CONV_DIR_2' signal connected to PIN16 - PA20 - configure this pin to OUTPUT
+
+18. Level converter enable 'CONV_OE' signal connected to PIN23 - PA24 - configure this pin to OUTPUT
+
+19. Switch button 'S4' signal connected to PIN25 - PA25 - configure this pin to INPUT
+
+20. Switch button 'S3' signal connected to PIN26 - PA26 - configure this pin to INPUT
+
+21. Level converter direction 'CONV_DIR_1' signal connected to PIN38 - PA28 - configure this pin to OUTPUT
+
+22. Switch button 'S5' signal connected to PIN41 - PA29 - configure this pin to INPUT
+
+23. Switch button 'S2' signal connected to PIN42 - PA30 - configure this pin to INPUT
+
+24. Power LED signal connected to PIN52 - PA31 - configure this pin to OUTPUT
+
+
+

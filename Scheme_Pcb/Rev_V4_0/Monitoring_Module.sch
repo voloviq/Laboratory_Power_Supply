@@ -1,0 +1,72 @@
+EESchema Schematic File Version 2  date pią, 31 gru 2010, 16:16:49
+LIBS:Atmel_Arm
+LIBS:74xx-us
+LIBS:battery
+LIBS:crystal
+LIBS:display-kingbright
+LIBS:fuse
+LIBS:jumper
+LIBS:resistor
+LIBS:lpc2138
+LIBS:74xx
+LIBS:adc-dac
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:brooktre
+LIBS:cmos4000
+LIBS:cmos_ieee
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:device
+LIBS:digital-audio
+LIBS:Discrete_Switches
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:linear
+LIBS:MacroBloc
+LIBS:memory
+LIBS:microchip
+LIBS:microchip1
+LIBS:microcontrollers
+LIBS:motorola
+LIBS:Nxp_uC
+LIBS:opto
+LIBS:philips
+LIBS:power
+LIBS:pspice
+LIBS:regul
+LIBS:siliconi
+LIBS:special
+LIBS:st_uC
+LIBS:SymbolsSimilarEN60617+oldDIN617
+LIBS:texas
+LIBS:transistors
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:xilinx
+LIBS:Pcb_Connectors
+LIBS:Lcd_Connector
+LIBS:Lab_Supplier-cache
+EELAYER 24  0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 6 8
+Title "TFT_Display"
+Date "31 dec 2010"
+Rev "V4_0"
+Comp "Michal Wolowik Private"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$EndSCHEMATC

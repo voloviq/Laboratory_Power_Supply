@@ -1,0 +1,100 @@
+## Module report - date sob, 12 mar 2011, 20:44:45
+## Created by PcbNew version pcbnew (2011-01-22 BZR 2755)-stable
+## Unit = inches, Angle = deg.
+##
+
+$BeginDESCRIPTION
+
+$BOARD
+unit INCH
+upper_left_corner  3.395900  1.282500
+lower_right_corner  8.919900  5.058800
+$EndBOARD
+
+$MODULE "V4"
+reference "V4"
+value "BACK_VIEW"
+footprint "Volovique_Emblemat"
+attribut none
+position  5.901200  3.574000
+orientation  0.00
+layer component
+$EndMODULE  V4
+
+$MODULE "V3"
+reference "V3"
+value "MAIN_CHASSIS_LOWER"
+footprint "Volovique_Emblemat"
+attribut none
+position  5.901200  4.493700
+orientation  0.00
+layer component
+$EndMODULE  V3
+
+$MODULE "V2"
+reference "V2"
+value "MAIN_CHASSIS_UPPER"
+footprint "Volovique_Emblemat"
+attribut none
+position  5.891700  3.084300
+orientation  0.00
+layer component
+$EndMODULE  V2
+
+$MODULE "V1"
+reference "V1"
+value "FRONT_VIEW"
+footprint "Volovique_Emblemat"
+attribut none
+position  5.846500  4.998800
+orientation  0.00
+layer component
+$SHAPE3D
+Na "PCB_3D_Board.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  V1
+
+$LINE 
+start 3.884300 3.688200
+end 3.403900 3.688200
+width 0.012000
+$EndLINE 
+$LINE 
+start 8.431500 3.689800
+end 8.913800 3.689800
+width 0.012000
+$EndLINE 
+$CIRCLE 
+centre 3.884300 3.690100
+radius 0.088600
+width 0.012000
+$EndCIRCLE 
+$CIRCLE 
+centre 8.431500 3.690100
+radius 0.088600
+width 0.012000
+$EndCIRCLE 
+$LINE 
+start 3.402000 1.288600
+end 3.402000 3.887000
+width 0.012000
+$EndLINE 
+$LINE 
+start 8.913800 1.288600
+end 3.402000 1.288600
+width 0.012000
+$EndLINE 
+$LINE 
+start 8.913800 3.887000
+end 8.913800 1.288600
+width 0.012000
+$EndLINE 
+$LINE 
+start 3.402000 3.887000
+end 8.913800 3.887000
+width 0.012000
+$EndLINE 
+$EndDESCRIPTION

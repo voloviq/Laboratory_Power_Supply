@@ -1,0 +1,79 @@
+EESchema-DOCLIB  Version 2.0  pią, 22 paź 2010, 21:22:58
+#
+$CMP BRIDGE
+D Pont de Diodes
+K Pont Diode
+$ENDCMP
+#
+$CMP C
+D Condensateur non polarise
+$ENDCMP
+#
+$CMP CONN_2
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CONN_3
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CONN_5X2
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CP
+D Condensateur polarise
+$ENDCMP
+#
+$CMP DIODE
+D Diode simple
+K DEV DIODE
+$ENDCMP
+#
+$CMP DIODESCH
+D Diode schottky
+K DEV DIODE
+$ENDCMP
+#
+$CMP LED
+K LED
+$ENDCMP
+#
+$CMP LM358
+D Dual Op amp (low power)
+K ampliop
+F ns/lm158.pdf
+$ENDCMP
+#
+$CMP MC34063
+D 1.5A step up/down/inverting switching regulator
+F regulator/mc34063.pdf
+$ENDCMP
+#
+$CMP MOS_P
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP NPN
+F transistors/bipolar/*.*
+$ENDCMP
+#
+$CMP POT
+D Potentionmetre
+K R
+$ENDCMP
+#
+$CMP R
+D Resistance
+K R DEV
+$ENDCMP
+#
+$CMP ZENER
+D Diode zener
+K DEV DIODE
+$ENDCMP
+#
+#End Doc Library

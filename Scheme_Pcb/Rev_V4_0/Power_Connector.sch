@@ -1,0 +1,196 @@
+EESchema Schematic File Version 2  date śro, 19 sty 2011, 18:23:39
+LIBS:Atmel_Arm
+LIBS:74xx-us
+LIBS:battery
+LIBS:crystal
+LIBS:display-kingbright
+LIBS:fuse
+LIBS:jumper
+LIBS:resistor
+LIBS:lpc2138
+LIBS:74xx
+LIBS:adc-dac
+LIBS:analog_switches
+LIBS:audio
+LIBS:brooktre
+LIBS:cmos4000
+LIBS:cmos_ieee
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:device
+LIBS:digital-audio
+LIBS:Discrete_Switches
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:linear
+LIBS:MacroBloc
+LIBS:memory
+LIBS:microchip
+LIBS:microchip1
+LIBS:microcontrollers
+LIBS:motorola
+LIBS:Nxp_uC
+LIBS:opto
+LIBS:philips
+LIBS:power
+LIBS:pspice
+LIBS:regul
+LIBS:siliconi
+LIBS:special
+LIBS:st_uC
+LIBS:SymbolsSimilarEN60617+oldDIN617
+LIBS:texas
+LIBS:transistors
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:xilinx
+LIBS:Pcb_Connectors
+LIBS:Symbols
+LIBS:Lcd_Connector
+LIBS:TS_Chip
+LIBS:Lab_Supplier-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 3 10
+Title "Laboratory supply - power connectors"
+Date "19 jan 2011"
+Rev "V4_0"
+Comp "Volovique"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	1900 5300 1900 5150
+Wire Wire Line
+	1900 5150 1500 5150
+Wire Wire Line
+	3600 5900 3600 5800
+Wire Wire Line
+	3600 2400 3600 3900
+Wire Wire Line
+	3600 3900 1650 3900
+Wire Wire Line
+	8450 2400 8450 2900
+Wire Wire Line
+	8450 2900 7950 2900
+Wire Wire Line
+	7950 2900 7950 3450
+Wire Wire Line
+	7250 2400 7250 2900
+Wire Wire Line
+	7250 2900 7750 2900
+Wire Wire Line
+	7750 2900 7750 3450
+Wire Wire Line
+	1700 3200 3400 3200
+Wire Wire Line
+	3400 3200 3400 2400
+Wire Wire Line
+	3600 5250 3600 5400
+Wire Wire Line
+	3600 4750 3600 4650
+Wire Wire Line
+	3600 4650 1900 4650
+$Comp
+L SIGNAL_IN SIN?
+U 1 1 4D35E592
+P 1300 5150
+F 0 "SIN?" H 1300 5050 60  0001 C CNN
+F 1 "GND" H 1300 5150 60  0000 C CNN
+	1    1300 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4D35E571
+P 1900 5300
+F 0 "#PWR?" H 1900 5400 30  0001 C CNN
+F 1 "GND" H 1900 5230 30  0001 C CNN
+	1    1900 5300
+	1    0    0    -1  
+$EndComp
+Text GLabel 1900 4650 0    60   Input ~ 0
+DIS_OO_3V3_LED
+$Comp
+L GND #PWR?
+U 1 1 4D35E53E
+P 3600 5900
+F 0 "#PWR?" H 3600 6000 30  0001 C CNN
+F 1 "GND" H 3600 5830 30  0001 C CNN
+	1    3600 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4D35E513
+P 3600 5000
+F 0 "R?" H 3750 5050 50  0000 C CNN
+F 1 "470R/5%" H 3850 4950 50  0000 C CNN
+	1    3600 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 4D35E4FF
+P 3600 5600
+F 0 "D?" V 3550 5750 50  0000 C CNN
+F 1 "Red Led Diode" V 3650 5950 50  0000 C CNN
+	1    3600 5600
+	0    1    1    0   
+$EndComp
+Text Notes 6350 1850 0    60   ~ 0
+Below connector shall be located on microcontroller board (front panel)\n
+Text Notes 2450 1850 0    60   ~ 0
+Below connector shall be located on power board\n
+Text GLabel 1650 3900 0    60   Input ~ 0
+MPWR_GND
+Text GLabel 1700 3200 0    60   Input ~ 0
++(0-30)[V]
+$Comp
+L CONN_2 P?
+U 1 1 4D35E3DF
+P 7850 3800
+F 0 "P?" V 7800 3800 40  0000 C CNN
+F 1 "PWR_C" V 7900 3800 40  0000 C CNN
+	1    7850 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN1 P?
+U 1 1 4D35E3CF
+P 8450 2050
+F 0 "P?" V 8400 2050 40  0000 C CNN
+F 1 "'+'" V 8500 2050 40  0000 C CNN
+	1    8450 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN1 P?
+U 1 1 4D35E3C9
+P 7250 2050
+F 0 "P?" V 7200 2050 40  0000 C CNN
+F 1 "'-'" V 7300 2050 40  0000 C CNN
+	1    7250 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_2 P?
+U 1 1 4D35E3BF
+P 3500 2050
+F 0 "P?" V 3450 2050 40  0000 C CNN
+F 1 "PWR_C" V 3550 2050 40  0000 C CNN
+	1    3500 2050
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC

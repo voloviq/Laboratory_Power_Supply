@@ -1,0 +1,42 @@
+Circuit: * Z:\media\8C5E4AF45E4AD71C\Projekty\Laboratory_Supplier_With_Tft_Lcd_And_Touch_Panel\Analog_Circuit_Simulation_LTSpice\Lm358_Comparator_Calculation\LM358_Cmp.asc
+
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+Gmin = 1.76685e-007
+Gmin = 1.89714e-008
+Gmin = 2.03704e-009
+Gmin = 2.18725e-010
+Gmin = 2.34854e-011
+Gmin = 2.52173e-012
+Gmin = 2.70769e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+
+Date: Sun Dec 12 23:28:38 2010
+Total elapsed time: 0.207 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2119
+traniter = 1699
+tranpoints = 626
+accept = 550
+rejected = 76
+matrix size = 47
+fillins = 91
+solver = Normal
+Matrix Compiler1: 7,59 KB object code size  5.4/5.0/[2.7]
+Matrix Compiler2: off  [3.5]/4.2/4.4
+
+

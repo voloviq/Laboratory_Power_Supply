@@ -1,0 +1,2580 @@
+# EESchema Netlist Version 1.1 created  śro, 29 gru 2010, 17:26:25
+(
+ ( /4BB10256/4BD1CCE4 $noname  R37 150R {Lib=R}
+  (    1 GND )
+  (    2 N-000167 )
+ )
+ ( /4BB10256/4BD1CCDD $noname  D5 LED {Lib=LED}
+  (    1 N-000046 )
+  (    2 N-000167 )
+ )
+ ( /4BB10256/4BB118DC $noname  U9 LM1117 {Lib=LM1117}
+  (    1 N-000166 )
+  (    2 +1.8V )
+  (    3 +3.3V )
+ )
+ ( /4BB10256/4BB118D8 $noname  C31 100uF/6.3V {Lib=C}
+  (    1 +1.8V )
+  (    2 VSS )
+ )
+ ( /4BB10256/4BB118D6 $noname  C30 10uF/6V3 {Lib=C}
+  (    1 +3.3V )
+  (    2 VSS )
+ )
+ ( /4BB10256/4BB118D4 $noname  R35 3k3 {Lib=R}
+  (    1 +1.8V )
+  (    2 N-000166 )
+ )
+ ( /4BB10256/4BB118D3 $noname  R36 1k5 {Lib=R}
+  (    1 N-000166 )
+  (    2 VSS )
+ )
+ ( /4BB10256/4BB11799 $noname  U8 LM1117 {Lib=LM1117}
+  (    1 N-000164 )
+  (    2 +2.5V )
+  (    3 +3.3V )
+ )
+ ( /4BB10256/4BB11795 $noname  C29 100uF/6.3V {Lib=C}
+  (    1 +2.5V )
+  (    2 VSS )
+ )
+ ( /4BB10256/4BB11793 $noname  C27 10uF/6V3 {Lib=C}
+  (    1 +3.3V )
+  (    2 VSS )
+ )
+ ( /4BB10256/4BB11791 $noname  R33 2k7 {Lib=R}
+  (    1 +2.5V )
+  (    2 N-000164 )
+ )
+ ( /4BB10256/4BB11790 $noname  R34 2k7 {Lib=R}
+  (    1 N-000164 )
+  (    2 VSS )
+ )
+ ( /4BB10256/4BB1171C $noname  R32 4k3 {Lib=R}
+  (    1 N-000165 )
+  (    2 VSS )
+ )
+ ( /4BB10256/4BB11719 $noname  R31 2k7 {Lib=R}
+  (    1 +3.3V )
+  (    2 N-000165 )
+ )
+ ( /4BB10256/4BB106AC $noname  C25 10uF/16V {Lib=C}
+  (    1 N-000005 )
+  (    2 VSS )
+ )
+ ( /4BB10256/4BB105B2 $noname  C26 100uF/6.3V {Lib=C}
+  (    1 +3.3V )
+  (    2 VSS )
+ )
+ ( /4BB10256/4BB10412 $noname  U7 LM1117 {Lib=LM1117}
+  (    1 N-000165 )
+  (    2 +3.3V )
+  (    3 N-000005 )
+ )
+ ( /4BABCD98/4CC5E70B $noname  L3 2x10mH {Lib=INDUCTOR_2}
+  (    1 N-000161 )
+  (    2 N-000152 )
+  (    3 N-000161 )
+  (    4 N-000153 )
+ )
+ ( /4BABCD98/4CC46C34 $noname  P6 230[V]_S {Lib=CONN_2}
+  (    1 N-000003 )
+  (    2 /Main_Power_Transformer_Module/Fuse_SW_N_S )
+ )
+ ( /4BABCD98/4CC46C2B $noname  P5 FU_SW {Lib=CONN_2}
+  (    1 /Main_Power_Transformer_Module/Fuse_SW_N_S )
+  (    2 /Main_Power_Transformer_Module/Fuse_Sw_L_S )
+ )
+ ( /4BABCD98/4CC46B45 $noname  P4 SEC_WINDINGS {Lib=CONN_4}
+  (    1 N-000160 )
+  (    2 N-000159 )
+  (    3 N-000159 )
+  (    4 N-000155 )
+ )
+ ( /4BABCD98/4BC7F729 $noname  D3 KBL06 {Lib=BRIDGE}
+  (    1 VSS )
+  (    2 N-000155 )
+  (    3 N-000153 )
+  (    4 N-000158 )
+ )
+ ( /4BABCD98/4CC0A5C4 $noname  R62 220R {Lib=R}
+  (    1 -5V )
+  (    2 N-000163 )
+ )
+ ( /4BABCD98/4CC0A5AA $noname  D13 5V6 {Lib=ZENER}
+  (    1 -5V )
+  (    2 VSS )
+ )
+ ( /4BABCD98/4CC0A596 $noname  C36 47uF/50V {Lib=CAPAPOL}
+  (    1 VSS )
+  (    2 N-000163 )
+ )
+ ( /4BABCD98/4CC0A587 $noname  C35 47uF/50V {Lib=CAPAPOL}
+  (    1 N-000156 )
+  (    2 N-000157 )
+ )
+ ( /4BABCD98/4CC0A573 $noname  R61 82R {Lib=R}
+  (    1 N-000155 )
+  (    2 N-000156 )
+ )
+ ( /4BABCD98/4CC0A561 $noname  D12 LL43 {Lib=DIODE}
+  (    1 N-000163 )
+  (    2 N-000157 )
+ )
+ ( /4BABCD98/4CC0A55F $noname  D11 LL43 {Lib=DIODE}
+  (    1 N-000157 )
+  (    2 VSS )
+ )
+ ( /4BABCD98/4CC0A257 $noname  C37 2200uF/35V {Lib=CAPAPOL}
+  (    1 N-000152 )
+  (    2 VSS )
+ )
+ ( /4BABCD98/4CC0A1AF $noname  D14 1N4007 {Lib=DIODE}
+  (    1 N-000162 )
+  (    2 VAA )
+ )
+ ( /4BABCD98/4CC0A1A0 $noname  C38 470uF/50V {Lib=CAPAPOL}
+  (    1 VAA )
+  (    2 VSS )
+ )
+ ( /4BABCD98/4CC0A171 $noname  L2_SUPP1 68uH/1A {Lib=INDUCTOR}
+  (    1 N-000152 )
+  (    2 N-000162 )
+ )
+ ( /4BABCD98/4CC0999C $noname  P2_SUPP1 230V_TR {Lib=CONN_2}
+  (    1 N-000003 )
+  (    2 /Main_Power_Transformer_Module/Fuse_Sw_L_S )
+ )
+ ( /4BABCD98/4C112B93 $noname  C34 100nF {Lib=C}
+  (    1 N-000152 )
+  (    2 VSS )
+ )
+ ( /4BABCD98/4C0FCA46 $noname  K3 RELAY {Lib=RELAY}
+  (    1 VSS )
+  (    2 N-000107 )
+  (    3 N-000158 )
+  (    4 N-000160 )
+  (    5 N-000159 )
+ )
+ ( /4BABCD98/4BFACC2D $noname  F1 2A {Lib=FUSE}
+  (    1 N-000152 )
+  (    2 VPP )
+ )
+ ( /4BABCD98/4BCA3046 $noname  T1 TST_50/004 {Lib=TRANSFO2}
+  (    1 /Main_Power_Transformer_Module/Fuse_Sw_L_S )
+  (    2 N-000003 )
+  (    3 N-000160 )
+  (    4 N-000159 )
+  (    5 N-000159 )
+  (    6 N-000155 )
+ )
+ ( /4BABCD98/4BC7F7C8 $noname  C24 2200uF/50V {Lib=CAPAPOL}
+  (    1 N-000153 )
+  (    2 VSS )
+ )
+ ( /4BABCD72/4BC730AF $noname  R26 1k {Lib=R}
+  (    1 N-000135 )
+  (    2 GND )
+ )
+ ( /4BABCD72/4BC730AE $noname  R25 1k {Lib=R}
+  (    1 N-000135 )
+  (    2 N-000069 )
+ )
+ ( /4BABCD72/4BC730A0 $noname  Q2 BC846 {Lib=NPN}
+  (    1 GND )
+  (    2 N-000135 )
+  (    3 /TFT-LCD_Touch_Panel_Module/V_bcklight_Minus_CTRL )
+ )
+ ( /4BABCD72/4BBCC2FC $noname  U5 74LVC4245AD {Lib=74LVC4245AD}
+  (    1 +3.3VDAC )
+  (    2 N-000047 )
+  (    3 ? )
+  (    4 N-000017 )
+  (    5 N-000062 )
+  (    6 N-000018 )
+  (    7 N-000045 )
+  (    8 N-000019 )
+  (    9 N-000070 )
+  (   10 N-000020 )
+  (   11 GND )
+  (   12 GND )
+  (   13 GND )
+  (   14 N-000144 )
+  (   15 N-000131 )
+  (   16 N-000145 )
+  (   17 N-000130 )
+  (   18 N-000146 )
+  (   19 N-000129 )
+  (   20 N-000147 )
+  (   21 ? )
+  (   22 N-000055 )
+  (   23 N-000040 )
+  (   24 N-000040 )
+ )
+ ( /4BABCD72/4BBCC2F9 $noname  U6 74LVC4245AD {Lib=74LVC4245AD}
+  (    1 +3.3VDAC )
+  (    2 N-000023 )
+  (    3 N-000073 )
+  (    4 N-000024 )
+  (    5 N-000071 )
+  (    6 N-000021 )
+  (    7 N-000048 )
+  (    8 N-000072 )
+  (    9 N-000022 )
+  (   10 ? )
+  (   11 GND )
+  (   12 GND )
+  (   13 GND )
+  (   14 ? )
+  (   15 N-000139 )
+  (   16 N-000148 )
+  (   17 N-000138 )
+  (   18 N-000140 )
+  (   19 N-000137 )
+  (   20 N-000141 )
+  (   21 N-000136 )
+  (   22 N-000055 )
+  (   23 N-000040 )
+  (   24 N-000040 )
+ )
+ ( /4BABCD72/4BBCBD92 $noname  C23 100uF/25V {Lib=CAPAPOL}
+  (    1 N-000120 )
+  (    2 VSS )
+ )
+ ( /4BABCD72/4BBCBD90 $noname  C22 330uF/25V {Lib=CAPAPOL}
+  (    1 N-000128 )
+  (    2 VSS )
+ )
+ ( /4BABCD72/4BBCBD75 $noname  L2 100uH {Lib=INDUCTOR}
+  (    1 N-000128 )
+  (    2 N-000120 )
+ )
+ ( /4BABCD72/4BBCBBDE $noname  D2 SS14 {Lib=DIODESCH}
+  (    1 N-000127 )
+  (    2 N-000128 )
+ )
+ ( /4BABCD72/4BBCBBD5 $noname  R28 1k {Lib=R}
+  (    1 N-000125 )
+  (    2 VSS )
+ )
+ ( /4BABCD72/4BBCBBD4 $noname  R30 11k {Lib=R}
+  (    1 N-000128 )
+  (    2 N-000125 )
+ )
+ ( /4BABCD72/4BBCBB58 $noname  C21 100uF/16V {Lib=CAPAPOL}
+  (    1 +8V )
+  (    2 VSS )
+ )
+ ( /4BABCD72/4BBCBB35 $noname  R27 0R22 {Lib=R}
+  (    1 +8V )
+  (    2 N-000149 )
+ )
+ ( /4BABCD72/4BBCBB05 $noname  R29 180R {Lib=R}
+  (    1 N-000149 )
+  (    2 N-000126 )
+ )
+ ( /4BABCD72/4BBCBADA $noname  C20 1.5nF {Lib=C}
+  (    1 N-000134 )
+  (    2 VSS )
+ )
+ ( /4BABCD72/4BBCBA61 $noname  L1 68uH {Lib=INDUCTOR}
+  (    1 N-000149 )
+  (    2 N-000127 )
+ )
+ ( /4BABCD72/4BBCB546 $noname  U4 MC34063 {Lib=MC34063}
+  (    1 N-000127 )
+  (    2 VSS )
+  (    3 N-000134 )
+  (    4 VSS )
+  (    5 N-000125 )
+  (    6 +8V )
+  (    7 N-000149 )
+  (    8 N-000126 )
+ )
+ ( /4BABCD72/4BBB985D $noname  Jp40 NOKIA_N73 {Lib=NOKIA_N73}
+  (    1 N-000144 )
+  (    2 N-000131 )
+  (    3 N-000145 )
+  (    4 GND )
+  (    5 N-000130 )
+  (    6 N-000146 )
+  (    7 N-000129 )
+  (    8 N-000147 )
+  (    9 GND )
+  (   10 N-000039 )
+  (   11 N-000132 )
+  (   12 N-000035 )
+  (   13 /TFT-LCD_Touch_Panel_Module/V_bcklight_Minus_CTRL )
+  (   14 N-000132 )
+  (   15 N-000040 )
+  (   16 GND )
+  (   17 N-000139 )
+  (   18 N-000148 )
+  (   19 GND )
+  (   20 N-000138 )
+  (   21 N-000140 )
+  (   22 N-000137 )
+  (   23 N-000141 )
+  (   24 N-000136 )
+ )
+ ( /4BABCD4B/4BC770F1 $noname  U2 LM358 {Lib=LM358}
+  (    1 N-000096 )
+  (    2 N-000111 )
+  (    3 N-000112 )
+  (    4 VSS )
+  (    5 N-000110 )
+  (    6 N-000097 )
+  (    7 N-000084 )
+  (    8 VAA )
+ )
+ ( /4BABCD4B/4D04BCF3 $noname  D20 ZPY12 {Lib=ZENER}
+  (    1 VSS )
+  (    2 N-000108 )
+ )
+ ( /4BABCD4B/4D04BC4E $noname  R69 2k2 {Lib=R}
+  (    1 N-000121 )
+  (    2 /Power_Regulation_Module/Output )
+ )
+ ( /4BABCD4B/4D04BC29 $noname  D19 ZPY12 {Lib=ZENER}
+  (    1 VSS )
+  (    2 N-000121 )
+ )
+ ( /4BABCD4B/4D0126E1 $noname  R68 2k2 {Lib=R}
+  (    1 /Power_Regulation_Module/12V_ZPWR )
+  (    2 VAA )
+ )
+ ( /4BABCD4B/4D0126D4 $noname  D18 ZPY12 {Lib=ZENER}
+  (    1 VSS )
+  (    2 /Power_Regulation_Module/12V_ZPWR )
+ )
+ ( /4BABCD4B/4CD32F48 $noname  K5 For_2N3055 {Lib=CONN_3}
+  (    1 N-000105 )
+  (    2 N-000116 )
+  (    3 N-000104 )
+ )
+ ( /4BABCD4B/4CD32F38 $noname  Q8 NPN {Lib=NPN}
+  (    1 N-000105 )
+  (    2 N-000116 )
+  (    3 N-000104 )
+ )
+ ( /4BABCD4B/4CCC82C2 $noname  D16 1N4001 {Lib=DIODE}
+  (    1 VSS )
+  (    2 N-000106 )
+ )
+ ( /4BABCD4B/4CCC8278 $noname  C44 10uF/50V {Lib=CAPAPOL}
+  (    1 N-000106 )
+  (    2 VSS )
+ )
+ ( /4BABCD4B/4CC9D677 $noname  R64 10k {Lib=R}
+  (    1 N-000117 )
+  (    2 VPP )
+ )
+ ( /4BABCD4B/4CC9D632 $noname  R63 1k5 {Lib=R}
+  (    1 -5V )
+  (    2 N-000117 )
+ )
+ ( /4BABCD4B/4CC9D5CF $noname  Q7 BC846 {Lib=NPN}
+  (    1 VSS )
+  (    2 N-000117 )
+  (    3 N-000113 )
+ )
+ ( /4BABCD4B/4CC9D4DE $noname  C43 100pF {Lib=C}
+  (    1 /Power_Regulation_Module/Output )
+  (    2 N-000114 )
+ )
+ ( /4BABCD4B/4CC9D2AA $noname  C42 100pF {Lib=C}
+  (    1 N-000094 )
+  (    2 N-000112 )
+ )
+ ( /4BABCD4B/4CC9D25D $noname  C41 100pF {Lib=C}
+  (    1 N-000114 )
+  (    2 N-000113 )
+ )
+ ( /4BABCD4B/4CC746CB $noname  P1 PWR_SIGNAL {Lib=CONN_8X2}
+  (    1 +3.3V )
+  (    2 N-000118 )
+  (    3 +2.5V )
+  (    4 N-000098 )
+  (    5 +1.8V )
+  (    6 /Power_Regulation_Module/PWM_Current_Limit_Reg )
+  (    7 /Power_Regulation_Module/Fan_Cooler_EN )
+  (    8 /Power_Regulation_Module/Current_Measure )
+  (    9 VSS )
+  (   10 /Power_Regulation_Module/PWM_Voltage_Reg )
+  (   11 VSS )
+  (   12 /Power_Regulation_Module/Voltage_Measure )
+  (   13 N-000120 )
+  (   14 VSS )
+  (   15 VSS )
+  (   16 VSS )
+ )
+ ( /4BABCD4B/4CC0BD85 $noname  C40 100nF {Lib=C}
+  (    1 /Power_Regulation_Module/Voltage_Measure )
+  (    2 VSS )
+ )
+ ( /4BABCD4B/4CC0BD4A $noname  C39 100nF {Lib=C}
+  (    1 /Power_Regulation_Module/Current_Measure )
+  (    2 VSS )
+ )
+ ( /4BABCD4B/4CC0B417 $noname  RV2 10k {Lib=POT}
+  (    1 N-000087 )
+  (    2 VAA )
+  (    3 N-000100 )
+ )
+ ( /4BABCD4B/4CC0B3D1 $noname  U13 OP07 {Lib=OP07}
+  (    1 N-000087 )
+  (    2 N-000114 )
+  (    3 N-000092 )
+  (    4 -5V )
+  (    6 N-000113 )
+  (    7 VAA )
+  (    8 N-000100 )
+ )
+ ( /4BABCD4B/4CC0B33E $noname  RV1 10k {Lib=POT}
+  (    1 N-000090 )
+  (    2 VAA )
+  (    3 N-000091 )
+ )
+ ( /4BABCD4B/4CC0B2DE $noname  U12 OP07 {Lib=OP07}
+  (    1 N-000091 )
+  (    2 N-000094 )
+  (    3 N-000102 )
+  (    4 -5V )
+  (    6 N-000112 )
+  (    7 VAA )
+  (    8 N-000090 )
+ )
+ ( /4BABCD4B/4BC77B9D $noname  C16 100nF {Lib=C}
+  (    1 N-000111 )
+  (    2 VSS )
+ )
+ ( /4BABCD4B/4C112A9B $noname  P3 POWER {Lib=CONN_2}
+  (    1 /Power_Regulation_Module/Output )
+  (    2 VSS )
+ )
+ ( /4BABCD4B/4C112A33 $noname  K4 FAN_COOLER {Lib=CONN_3}
+  (    1 N-000082 )
+  (    2 ? )
+  (    3 N-000109 )
+ )
+ ( /4BABCD4B/4C112A13 $noname  R59 47R {Lib=R}
+  (    1 VAA )
+  (    2 N-000082 )
+ )
+ ( /4BABCD4B/4C112A04 $noname  D10 LL43 {Lib=DIODE}
+  (    1 N-000109 )
+  (    2 VAA )
+ )
+ ( /4BABCD4B/4C1129E3 $noname  R58 4k7 {Lib=R}
+  (    1 N-000085 )
+  (    2 /Power_Regulation_Module/Fan_Cooler_EN )
+ )
+ ( /4BABCD4B/4C1129CF $noname  Q6 BC846 {Lib=NPN}
+  (    1 VSS )
+  (    2 N-000085 )
+  (    3 N-000109 )
+ )
+ ( /4BABCD4B/4C112907 $noname  D9 LL43 {Lib=DIODE}
+  (    1 VSS )
+  (    2 N-000107 )
+ )
+ ( /4BABCD4B/4C1128E4 $noname  Q5 BC847B {Lib=NPN}
+  (    1 N-000107 )
+  (    2 N-000108 )
+  (    3 VAA )
+ )
+ ( /4BABCD4B/4C1128CE $noname  R56 10k {Lib=R}
+  (    1 N-000108 )
+  (    2 N-000084 )
+ )
+ ( /4BABCD4B/4C112811 $noname  R55 15k {Lib=R}
+  (    1 N-000084 )
+  (    2 N-000110 )
+ )
+ ( /4BABCD4B/4C11280F $noname  R53 1k {Lib=R}
+  (    1 N-000097 )
+  (    2 /Power_Regulation_Module/12V_ZPWR )
+ )
+ ( /4BABCD4B/4C11280A $noname  R54 10k {Lib=R}
+  (    1 N-000097 )
+  (    2 VSS )
+ )
+ ( /4BABCD4B/4C112809 $noname  R52 1k {Lib=R}
+  (    1 N-000110 )
+  (    2 N-000121 )
+ )
+ ( /4BABCD4B/4C1125A1 $noname  D7 3V3 {Lib=ZENER}
+  (    1 VSS )
+  (    2 /Power_Regulation_Module/Current_Measure )
+ )
+ ( /4BABCD4B/4C11259E $noname  R49 10k {Lib=R}
+  (    1 VSS )
+  (    2 /Power_Regulation_Module/Current_Measure )
+ )
+ ( /4BABCD4B/4C11259C $noname  R48 1k {Lib=R}
+  (    1 /Power_Regulation_Module/Current_Measure )
+  (    2 N-000112 )
+ )
+ ( /4BABCD4B/4C112557 $noname  D8 3V3 {Lib=ZENER}
+  (    1 VSS )
+  (    2 /Power_Regulation_Module/Voltage_Measure )
+ )
+ ( /4BABCD4B/4C11252B $noname  R50 1k {Lib=R}
+  (    1 /Power_Regulation_Module/Voltage_Measure )
+  (    2 VSS )
+ )
+ ( /4BABCD4B/4C112527 $noname  R51 10k {Lib=R}
+  (    1 /Power_Regulation_Module/Output )
+  (    2 /Power_Regulation_Module/Voltage_Measure )
+ )
+ ( /4BABCD4B/4C1124F4 $noname  Q4 BD139 {Lib=NPN}
+  (    1 N-000095 )
+  (    2 N-000113 )
+  (    3 VPP )
+ )
+ ( /4BABCD4B/4BFAD762 $noname  K2 Temp_2 {Lib=CONN_3}
+  (    1 VSS )
+  (    2 N-000098 )
+  (    3 +3.3V )
+ )
+ ( /4BABCD4B/4BFAD75D $noname  K1 Temp_1 {Lib=CONN_3}
+  (    1 VSS )
+  (    2 N-000118 )
+  (    3 +3.3V )
+ )
+ ( /4BABCD4B/4BC89173 $noname  R17 1M {Lib=R}
+  (    1 N-000092 )
+  (    2 VSS )
+ )
+ ( /4BABCD4B/4BC89137 $noname  R16 1k {Lib=R}
+  (    1 /Power_Regulation_Module/PWM_Voltage_Reg )
+  (    2 N-000092 )
+ )
+ ( /4BABCD4B/4BC89117 $noname  R14 1M {Lib=R}
+  (    1 N-000111 )
+  (    2 VSS )
+ )
+ ( /4BABCD4B/4BC890F0 $noname  R15 1k {Lib=R}
+  (    1 /Power_Regulation_Module/PWM_Current_Limit_Reg )
+  (    2 N-000111 )
+ )
+ ( /4BABCD4B/4BC77BA4 $noname  C19 100nF {Lib=C}
+  (    1 N-000092 )
+  (    2 VSS )
+ )
+ ( /4BABCD4B/4BC77717 $noname  D1 LL43 {Lib=DIODE}
+  (    1 N-000096 )
+  (    2 N-000114 )
+ )
+ ( /4BABCD4B/4BC776B3 $noname  Q1 1N3055 {Lib=NPN}
+  (    1 N-000106 )
+  (    2 N-000095 )
+  (    3 VPP )
+ )
+ ( /4BABCD4B/4BC7731B $noname  R22 0R1 {Lib=R}
+  (    1 N-000106 )
+  (    2 /Power_Regulation_Module/Output )
+ )
+ ( /4BABCD4B/4BC77319 $noname  R23 33k {Lib=R}
+  (    1 /Power_Regulation_Module/Output )
+  (    2 N-000114 )
+ )
+ ( /4BABCD4B/4BC7730C $noname  R19 100k {Lib=R}
+  (    1 N-000102 )
+  (    2 VSS )
+ )
+ ( /4BABCD4B/4BC7730A $noname  R20 10k {Lib=R}
+  (    1 /Power_Regulation_Module/Output )
+  (    2 N-000094 )
+ )
+ ( /4BABCD4B/4BC77308 $noname  R21 10k {Lib=R}
+  (    1 N-000106 )
+  (    2 N-000102 )
+ )
+ ( /4BABCD4B/4BC77305 $noname  R18 100k {Lib=R}
+  (    1 N-000094 )
+  (    2 N-000112 )
+ )
+ ( /4BABCD4B/4BC77303 $noname  R24 2k7 {Lib=R}
+  (    1 VSS )
+  (    2 N-000114 )
+ )
+ ( /4BABCCD6/4CCD4114 $noname  R65 150R {Lib=R}
+  (    1 N-000043 )
+  (    2 +3.3VDAC )
+ )
+ ( /4BABCCD6/4CCD4111 $noname  R67 330R {Lib=R}
+  (    1 N-000044 )
+  (    2 N-000043 )
+ )
+ ( /4BABCCD6/4CCD410E $noname  R66 3k3 {Lib=R}
+  (    1 GND )
+  (    2 N-000044 )
+ )
+ ( /4BABCCD6/4CCD40AC $noname  D17 TL431 {Lib=TL431}
+  (    1 N-000043 )
+  (    6 GND )
+  (    8 N-000044 )
+ )
+ ( /4BABCCD6/4CC9C8BF $noname  P7 POWER {Lib=CONN_2}
+  (    1 N-000049 )
+  (    2 N-000061 )
+ )
+ ( /4BABCCD6/4BD1CC80 $noname  Jp44 PWR_GND {Lib=TEST_POINT}
+  (    1 N-000049 )
+ )
+ ( /4BABCCD6/4CC86715 $noname  P2 PWR_SIGNAL {Lib=CONN_8X2}
+  (    1 /Main_Controller_of_supplier/Temp_1_CTRL )
+  (    2 +3.3VDAC )
+  (    3 /Main_Controller_of_supplier/Temp_2_CTRL )
+  (    4 N-000039 )
+  (    5 /Main_Controller_of_supplier/PWM_Current_Limit_Reg_CTRL )
+  (    6 N-000040 )
+  (    7 /Main_Controller_of_supplier/Current_Measure_CTRL )
+  (    8 /Main_Controller_of_supplier/FAN_COOLER_CTRL )
+  (    9 /Main_Controller_of_supplier/PWM_Voltage_Reg_CTRL )
+  (   10 GND )
+  (   11 /Main_Controller_of_supplier/Voltage_Measure_CTRL )
+  (   12 GND )
+  (   13 GND )
+  (   14 N-000035 )
+  (   15 GND )
+  (   16 GND )
+ )
+ ( /4BABCCD6/4BD9C78A $noname  R45 4k7 {Lib=R}
+  (    1 +3.3VDAC )
+  (    2 /Main_Controller_of_supplier/Temp_1_CTRL )
+ )
+ ( /4BABCCD6/4BD98BD8 $noname  R42 1k5 {Lib=R}
+  (    1 N-000064 )
+  (    2 N-000054 )
+ )
+ ( /4BABCCD6/4BD98BD6 $noname  R38 Rext {Lib=R}
+  (    1 N-000064 )
+  (    2 /Main_Controller_of_supplier/USB_D2 )
+ )
+ ( /4BABCCD6/4BD98BD5 $noname  R39 Rext {Lib=R}
+  (    1 N-000050 )
+  (    2 /Main_Controller_of_supplier/USB_D1 )
+ )
+ ( /4BABCCD6/4BD98BD4 $noname  R41 330k {Lib=R}
+  (    1 N-000064 )
+  (    2 GND )
+ )
+ ( /4BABCCD6/4BD98BD2 $noname  R40 330k {Lib=R}
+  (    1 N-000050 )
+  (    2 GND )
+ )
+ ( /4BABCCD6/4BD98BD0 $noname  R43 27k {Lib=R}
+  (    1 /Main_Controller_of_supplier/V5_Mon )
+  (    2 N-000052 )
+ )
+ ( /4BABCCD6/4BD98BCE $noname  R44 47k {Lib=R}
+  (    1 /Main_Controller_of_supplier/V5_Mon )
+  (    2 GND )
+ )
+ ( /4BABCCD6/4BD98AB2 $noname  Q3 IRFU9024N {Lib=MOSFET_P}
+  (    D N-000054 )
+  (    G /Main_Controller_of_supplier/USB_DRIVE_CTRL )
+  (    S +3.3VDAC )
+ )
+ ( /4BABCCD6/4BD98A70 $noname  J1 USB {Lib=USB}
+  (    1 N-000052 )
+  (    2 N-000050 )
+  (    3 N-000064 )
+  (    4 GND )
+  (    5 GND )
+  (    6 GND )
+ )
+ ( /4BABCCD6/4BD1CC7D $noname  Jp43 PWR_+ {Lib=TEST_POINT}
+  (    1 N-000061 )
+ )
+ ( /4BABCCD6/4BC9EB3B $noname  R4 10k {Lib=R}
+  (    1 +3.3VDAC )
+  (    2 N-000063 )
+ )
+ ( /4BABCCD6/4BC9EB32 $noname  R3 10k {Lib=R}
+  (    1 +3.3VDAC )
+  (    2 N-000058 )
+ )
+ ( /4BABCCD6/4BC9EB24 $noname  R2 10k {Lib=R}
+  (    1 +3.3VDAC )
+  (    2 N-000059 )
+ )
+ ( /4BABCCD6/4BC9EB05 $noname  R1 10k {Lib=R}
+  (    1 +3.3VDAC )
+  (    2 N-000060 )
+ )
+ ( /4BABCCD6/4BC9EAF2 $noname  R5 10k {Lib=R}
+  (    1 +3.3VDAC )
+  (    2 N-000057 )
+ )
+ ( /4BABCCD6/4BC9EAA9 $noname  S5 TACT-24R {Lib=TACT-24R}
+  (    1 N-000077 )
+  (    2 N-000077 )
+  (    3 N-000057 )
+  (    4 N-000057 )
+ )
+ ( /4BABCCD6/4BC9EAA6 $noname  S4 TACT-24R {Lib=TACT-24R}
+  (    1 N-000077 )
+  (    2 N-000077 )
+  (    3 N-000063 )
+  (    4 N-000063 )
+ )
+ ( /4BABCCD6/4BC9EAA1 $noname  S3 TACT-24R {Lib=TACT-24R}
+  (    1 N-000077 )
+  (    2 N-000077 )
+  (    3 N-000058 )
+  (    4 N-000058 )
+ )
+ ( /4BABCCD6/4BC9EA9E $noname  S2 TACT-24R {Lib=TACT-24R}
+  (    1 N-000077 )
+  (    2 N-000077 )
+  (    3 N-000059 )
+  (    4 N-000059 )
+ )
+ ( /4BABCCD6/4BC9EA9A $noname  S1 TACT-24R {Lib=TACT-24R}
+  (    1 N-000077 )
+  (    2 N-000077 )
+  (    3 N-000060 )
+  (    4 N-000060 )
+ )
+ ( /4BABCCD6/4BC9EA1F $noname  R7 10k {Lib=R}
+  (    1 /Main_Controller_of_supplier/SPI_FLASH_CS )
+  (    2 +3.3VDAC )
+ )
+ ( /4BABCCD6/4BC9E8B7 $noname  U1 AT45DB161D {Lib=AT45DB161D}
+  (    1 /Main_Controller_of_supplier/SPI_FLASH_MOSI )
+  (    2 /Main_Controller_of_supplier/SPI_FLASH_CLK )
+  (    3 /Main_Controller_of_supplier/NRST )
+  (    4 /Main_Controller_of_supplier/SPI_FLASH_CS )
+  (    5 +3.3VDAC )
+  (    6 +3.3VDAC )
+  (    7 GND )
+  (    8 /Main_Controller_of_supplier/SPI_FLASH_MISO )
+ )
+ ( /4BABCCD6/4BBCF44D $noname  X1 14.7456MHz {Lib=QUARTZCMS4}
+  (    1 N-000030 )
+  (    2 N-000079 )
+ )
+ ( /4BABCCD6/4BBCF441 $noname  C12 10pF {Lib=C}
+  (    1 GND )
+  (    2 N-000079 )
+ )
+ ( /4BABCCD6/4BBCF43F $noname  C13 10pF {Lib=C}
+  (    1 GND )
+  (    2 N-000030 )
+ )
+ ( /4BABCCD6/4BBCF316 $noname  R6 1k {Lib=R}
+  (    1 N-000078 )
+  (    2 N-000029 )
+ )
+ ( /4BABCCD6/4BBCF309 $noname  C11 1nF {Lib=C}
+  (    1 GND )
+  (    2 N-000078 )
+ )
+ ( /4BABCCD6/4BBCF307 $noname  C10 68pF {Lib=C}
+  (    1 GND )
+  (    2 N-000029 )
+ )
+ ( /4BABCCD6/4BBCF1B2 $noname  C9 100nF {Lib=C}
+  (    1 GND )
+  (    2 N-000040 )
+ )
+ ( /4BABCCD6/4BBCF160 $noname  C14 100nF {Lib=C}
+  (    1 GND )
+  (    2 +3.3VDAC )
+ )
+ ( /4BABCCD6/4BBCF042 $noname  C15 100nF {Lib=C}
+  (    1 GND )
+  (    2 N-000043 )
+ )
+ ( /4BABCCD6/4BBCE9BC $noname  C4 100nF {Lib=C}
+  (    1 GND )
+  (    2 N-000040 )
+ )
+ ( /4BABCCD6/4BBCED80 $noname  C3 100nF {Lib=C}
+  (    1 GND )
+  (    2 +3.3VDAC )
+ )
+ ( /4BABCCD6/4BBCED7B $noname  C2 100nF {Lib=C}
+  (    1 +3.3VDAC )
+  (    2 GND )
+ )
+ ( /4BABCCD6/4BBCED76 $noname  C7 100nF {Lib=C}
+  (    1 GND )
+  (    2 +3.3VDAC )
+ )
+ ( /4BABCCD6/4BBCED70 $noname  C1 100nF {Lib=C}
+  (    1 GND )
+  (    2 +3.3VDAC )
+ )
+ ( /4BABCCD6/4BBCEA20 $noname  C5 100nF {Lib=C}
+  (    1 GND )
+  (    2 N-000040 )
+ )
+ ( /4BABCCD6/4BBCEA1F $noname  C6 100nF {Lib=C}
+  (    1 GND )
+  (    2 N-000040 )
+ )
+ ( /4BABCCD6/4BBCE923 $noname  C8 100nF {Lib=C}
+  (    1 GND )
+  (    2 N-000040 )
+ )
+ ( /4BABCCD6/4BBCD2B9 $noname  R8 150R {Lib=R}
+  (    1 GND )
+  (    2 N-000032 )
+ )
+ ( /4BABCCD6/4BBCD25A $noname  R12 100k {Lib=R}
+  (    1 +3.3VDAC )
+  (    2 /Main_Controller_of_supplier/NRST )
+ )
+ ( /4BABCCD6/4BBCD258 $noname  R13 100k {Lib=R}
+  (    1 +3.3VDAC )
+  (    2 N-000056 )
+ )
+ ( /4BABCCD6/4BBCD257 $noname  R11 100k {Lib=R}
+  (    1 +3.3VDAC )
+  (    2 N-000066 )
+ )
+ ( /4BABCCD6/4BBCD255 $noname  R10 100k {Lib=R}
+  (    1 +3.3VDAC )
+  (    2 N-000033 )
+ )
+ ( /4BABCCD6/4BBCD253 $noname  R9 100k {Lib=R}
+  (    1 +3.3VDAC )
+  (    2 N-000067 )
+ )
+ ( /4BABCCD6/4BBCD1D9 $noname  Jp36 JTAG_CONNECTOR {Lib=JTAG_CONNECTOR}
+  (    1 +3.3VDAC )
+  (    2 N-000067 )
+  (    3 N-000066 )
+  (    4 N-000033 )
+  (    5 N-000056 )
+  (    6 /Main_Controller_of_supplier/NRST )
+  (    7 GND )
+  (    8 GND )
+ )
+ ( /4BABCCD6/4BABDFF5 $noname  uC1 AT91SAM7S128 {Lib=AT91SAM7S128}
+  (    1 N-000043 )
+  (    2 GND )
+  (    3 /Main_Controller_of_supplier/Voltage_Measure_CTRL )
+  (    4 /Main_Controller_of_supplier/Current_Measure_CTRL )
+  (    5 /Main_Controller_of_supplier/Temp_1_CTRL )
+  (    6 /Main_Controller_of_supplier/Temp_2_CTRL )
+  (    7 +3.3VDAC )
+  (    8 N-000040 )
+  (    9 /Main_Controller_of_supplier/USB_DRIVE_CTRL )
+  (   10 N-000022 )
+  (   11 N-000072 )
+  (   12 N-000040 )
+  (   13 N-000071 )
+  (   14 N-000024 )
+  (   15 N-000073 )
+  (   16 N-000023 )
+  (   17 GND )
+  (   18 +3.3VDAC )
+  (   19 N-000021 )
+  (   20 N-000048 )
+  (   21 /Main_Controller_of_supplier/SPI_FLASH_CLK )
+  (   22 /Main_Controller_of_supplier/SPI_FLASH_MOSI )
+  (   23 N-000055 )
+  (   24 N-000040 )
+  (   25 N-000063 )
+  (   26 N-000058 )
+  (   27 /Main_Controller_of_supplier/SPI_FLASH_MISO )
+  (   28 /Main_Controller_of_supplier/SPI_FLASH_CS )
+  (   29 N-000020 )
+  (   30 N-000070 )
+  (   31 N-000019 )
+  (   32 /Main_Controller_of_supplier/PWM_Current_Limit_Reg_CTRL )
+  (   33 /Main_Controller_of_supplier/NRST )
+  (   34 N-000018 )
+  (   35 N-000062 )
+  (   36 N-000017 )
+  (   37 N-000045 )
+  (   38 N-000047 )
+  (   39 N-000056 )
+  (   40 N-000032 )
+  (   41 N-000057 )
+  (   42 N-000059 )
+  (   43 N-000060 )
+  (   44 N-000069 )
+  (   45 +3.3VDAC )
+  (   46 GND )
+  (   47 /Main_Controller_of_supplier/FAN_COOLER_CTRL )
+  (   48 /Main_Controller_of_supplier/PWM_Voltage_Reg_CTRL )
+  (   49 N-000066 )
+  (   50 GND )
+  (   51 N-000033 )
+  (   52 N-000046 )
+  (   53 N-000067 )
+  (   54 N-000040 )
+  (   55 GND )
+  (   56 /Main_Controller_of_supplier/USB_D1 )
+  (   57 /Main_Controller_of_supplier/USB_D2 )
+  (   58 +3.3VDAC )
+  (   59 +3.3VDAC )
+  (   60 GND )
+  (   61 N-000079 )
+  (   62 N-000030 )
+  (   63 N-000029 )
+  (   64 N-000040 )
+ )
+ ( /4BABCB9D/4CC4835B TO92  Q1_S1 13001 {Lib=13001}
+  (    1 N-000015 )
+  (    2 N-000008 )
+  (    3 N-000007 )
+ )
+ ( /4BABCB9D/4CC07718 $noname  D4_S1 1N4148 {Lib=DIODE}
+  (    1 N-000009 )
+  (    2 N-000014 )
+ )
+ ( /4BABCB9D/4CC0771F $noname  D2_S1 C_12V {Lib=DIODE}
+  (    1 N-000009 )
+  (    2 N-000016 )
+ )
+ ( /4BABCB9D/4CC0941C $noname  C6_S1 100uF/16V {Lib=CAPAPOL}
+  (    1 N-000005 )
+  (    2 VSS )
+ )
+ ( /4BABCB9D/4CC09402 $noname  L1_S1 68uH/1A {Lib=INDUCTOR}
+  (    1 N-000006 )
+  (    2 N-000005 )
+ )
+ ( /4BABCB9D/4CC07AC9 $noname  B1_S1 SPI_IND {Lib=TRANSFO2}
+  (    1 N-000001 )
+  (    2 VSS )
+  (    3 N-000012 )
+  (    4 N-000008 )
+  (    5 N-000014 )
+  (    6 N-000007 )
+ )
+ ( /4BABCB9D/4CC07767 $noname  R8_S1 2k {Lib=R}
+  (    1 N-000006 )
+  (    2 VSS )
+ )
+ ( /4BABCB9D/4CC07766 $noname  R7_S1 30R {Lib=R}
+  (    1 N-000011 )
+  (    2 N-000016 )
+ )
+ ( /4BABCB9D/4CC07765 $noname  R6_S1 67k {Lib=R}
+  (    1 N-000002 )
+  (    2 N-000012 )
+ )
+ ( /4BABCB9D/4CC07763 $noname  R5_S1 560k {Lib=R}
+  (    1 N-000016 )
+  (    2 N-000012 )
+ )
+ ( /4BABCB9D/4CC07762 $noname  R4_S1 10k {Lib=R}
+  (    1 N-000014 )
+  (    2 N-000011 )
+ )
+ ( /4BABCB9D/4CC07760 $noname  R3_S1 30R {Lib=R}
+  (    1 N-000015 )
+  (    2 N-000016 )
+ )
+ ( /4BABCB9D/4CC0775E $noname  R2_S1 1R {Lib=R}
+  (    1 N-000007 )
+  (    2 N-000004 )
+ )
+ ( /4BABCB9D/4CC0775C $noname  R1_S1 1R {Lib=R}
+  (    1 N-000004 )
+  (    2 /Main_Power_Transformer_Module/Fuse_Sw_L_S )
+ )
+ ( /4BABCB9D/4CC0771A $noname  D5_S1 1N5816 {Lib=DIODE}
+  (    1 N-000001 )
+  (    2 N-000006 )
+ )
+ ( /4BABCB9D/4CC07717 $noname  D3_S1 1N4007 {Lib=DIODE}
+  (    1 N-000008 )
+  (    2 N-000002 )
+ )
+ ( /4BABCB9D/4CC07710 $noname  D1_S1 1N4007 {Lib=DIODE}
+  (    1 N-000003 )
+  (    2 N-000012 )
+ )
+ ( /4BABCB9D/4CC076DD $noname  C5_S1 100uF/16V {Lib=CAPAPOL}
+  (    1 N-000006 )
+  (    2 VSS )
+ )
+ ( /4BABCB9D/4CC076DB $noname  C2_S1 47uF/50V {Lib=CAPAPOL}
+  (    1 N-000007 )
+  (    2 N-000009 )
+ )
+ ( /4BABCB9D/4CC076D7 $noname  C1_S1 2.2uF/400V {Lib=CAPAPOL}
+  (    1 N-000012 )
+  (    2 N-000004 )
+ )
+ ( /4BABCB9D/4CC076D2 $noname  C4_S1 1nF {Lib=C}
+  (    1 N-000014 )
+  (    2 N-000011 )
+ )
+ ( /4BABCB9D/4CC076CC $noname  C3_S1 3.3nF/1kV {Lib=C}
+  (    1 N-000002 )
+  (    2 N-000012 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R37
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component D5
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component C31
+ SM*
+ C?
+ C1-1
+$endlist
+$component C30
+ SM*
+ C?
+ C1-1
+$endlist
+$component R35
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R36
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C29
+ SM*
+ C?
+ C1-1
+$endlist
+$component C27
+ SM*
+ C?
+ C1-1
+$endlist
+$component R33
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R34
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R32
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R31
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C25
+ SM*
+ C?
+ C1-1
+$endlist
+$component C26
+ SM*
+ C?
+ C1-1
+$endlist
+$component R62
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component D13
+ D?
+ SO*
+ SM*
+$endlist
+$component C36
+ CP*
+ SM*
+$endlist
+$component C35
+ CP*
+ SM*
+$endlist
+$component R61
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component D12
+ D?
+ S*
+$endlist
+$component D11
+ D?
+ S*
+$endlist
+$component C37
+ CP*
+ SM*
+$endlist
+$component D14
+ D?
+ S*
+$endlist
+$component C38
+ CP*
+ SM*
+$endlist
+$component C34
+ SM*
+ C?
+ C1-1
+$endlist
+$component C24
+ CP*
+ SM*
+$endlist
+$component R26
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R25
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C23
+ CP*
+ SM*
+$endlist
+$component C22
+ CP*
+ SM*
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component R28
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R30
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C21
+ CP*
+ SM*
+$endlist
+$component R27
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R29
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C20
+ SM*
+ C?
+ C1-1
+$endlist
+$component Jp40
+ Nokia_N73
+$endlist
+$component D20
+ D?
+ SO*
+ SM*
+$endlist
+$component R69
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component D19
+ D?
+ SO*
+ SM*
+$endlist
+$component R68
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component D18
+ D?
+ SO*
+ SM*
+$endlist
+$component D16
+ D?
+ S*
+$endlist
+$component C44
+ CP*
+ SM*
+$endlist
+$component R64
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R63
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C43
+ SM*
+ C?
+ C1-1
+$endlist
+$component C42
+ SM*
+ C?
+ C1-1
+$endlist
+$component C41
+ SM*
+ C?
+ C1-1
+$endlist
+$component C40
+ SM*
+ C?
+ C1-1
+$endlist
+$component C39
+ SM*
+ C?
+ C1-1
+$endlist
+$component C16
+ SM*
+ C?
+ C1-1
+$endlist
+$component R59
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component D10
+ D?
+ S*
+$endlist
+$component R58
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component D9
+ D?
+ S*
+$endlist
+$component R56
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R55
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R53
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R54
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R52
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component D7
+ D?
+ SO*
+ SM*
+$endlist
+$component R49
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R48
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component D8
+ D?
+ SO*
+ SM*
+$endlist
+$component R50
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R51
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C19
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component R22
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R23
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R19
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R20
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R21
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R18
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R24
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R65
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R67
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R66
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R45
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R42
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R38
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R39
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R41
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R40
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R43
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R44
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component S5
+ TACT-24R
+$endlist
+$component S4
+ TACT-24R
+$endlist
+$component S3
+ TACT-24R
+$endlist
+$component S2
+ TACT-24R
+$endlist
+$component S1
+ TACT-24R
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component C15
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component uC1
+ TQFP_64
+$endlist
+$component Q1_S1
+ TO92-EBC
+$endlist
+$component D4_S1
+ D?
+ S*
+$endlist
+$component D2_S1
+ D?
+ S*
+$endlist
+$component C6_S1
+ CP*
+ SM*
+$endlist
+$component R8_S1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R7_S1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R6_S1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R5_S1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R4_S1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R3_S1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R2_S1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1_S1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component D5_S1
+ D?
+ S*
+$endlist
+$component D3_S1
+ D?
+ S*
+$endlist
+$component D1_S1
+ D?
+ S*
+$endlist
+$component C5_S1
+ CP*
+ SM*
+$endlist
+$component C2_S1
+ CP*
+ SM*
+$endlist
+$component C1_S1
+ CP*
+ SM*
+$endlist
+$component C4_S1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3_S1
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ D5_S1 1
+ B1_S1 1
+Net 2 "" ""
+ R6_S1 1
+ C3_S1 1
+ D3_S1 2
+Net 3 "" ""
+ P2_SUPP1 1
+ T1 2
+ P6 1
+ D1_S1 1
+Net 4 "" ""
+ R2_S1 2
+ R1_S1 1
+ C1_S1 2
+Net 5 "" ""
+ L1_S1 2
+ C6_S1 1
+ C25 1
+ U7 3
+Net 6 "" ""
+ D5_S1 2
+ C5_S1 1
+ L1_S1 1
+ R8_S1 1
+Net 7 "" ""
+ C2_S1 1
+ R2_S1 1
+ B1_S1 6
+ Q1_S1 3
+Net 8 "" ""
+ Q1_S1 2
+ D3_S1 1
+ B1_S1 4
+Net 9 "" ""
+ C2_S1 2
+ D2_S1 1
+ D4_S1 1
+Net 10 "/Main Power Transformer Module/Fuse_Sw_L_S" "Fuse_Sw_L_S"
+ R1_S1 2
+ P5 2
+ P2_SUPP1 2
+ T1 1
+Net 11 "" ""
+ R4_S1 2
+ R7_S1 1
+ C4_S1 2
+Net 12 "" ""
+ R6_S1 2
+ R5_S1 2
+ B1_S1 3
+ C3_S1 2
+ D1_S1 2
+ C1_S1 1
+Net 13 "VSS" "VSS"
+ K3 1
+ C34 2
+ Q6 1
+ C36 1
+ D13 2
+ D3 1
+ C30 2
+ C31 2
+ P3 2
+ C38 2
+ C37 2
+ D11 2
+ C24 2
+ R32 2
+ C25 2
+ C26 2
+ R24 1
+ R19 2
+ C29 2
+ C16 2
+ C27 2
+ R36 2
+ R34 2
+ R14 2
+ R17 2
+ K1 1
+ K2 1
+ D9 1
+ C19 2
+ R50 2
+ D8 1
+ R49 1
+ D7 1
+ R54 2
+ C22 2
+ R28 2
+ C21 2
+ C20 2
+ U4 2
+ D19 1
+ U4 4
+ D20 1
+ U2 4
+ R8_S1 2
+ C5_S1 2
+ B1_S1 2
+ C6_S1 2
+ C23 2
+ C44 2
+ D16 1
+ D18 1
+ Q7 1
+ P1 16
+ P1 15
+ P1 14
+ C39 2
+ U2 4
+ C40 2
+ P1 9
+ P1 11
+Net 14 "" ""
+ C4_S1 1
+ R4_S1 1
+ B1_S1 5
+ D4_S1 2
+Net 15 "" ""
+ Q1_S1 1
+ R3_S1 1
+Net 16 "" ""
+ R7_S1 2
+ R5_S1 1
+ R3_S1 2
+ D2_S1 2
+Net 17 "" ""
+ uC1 36
+ U5 4
+Net 18 "" ""
+ uC1 34
+ U5 6
+Net 19 "" ""
+ U5 8
+ uC1 31
+Net 20 "" ""
+ U5 10
+ uC1 29
+Net 21 "" ""
+ uC1 19
+ U6 6
+Net 22 "" ""
+ uC1 10
+ U6 9
+Net 23 "" ""
+ uC1 16
+ U6 2
+Net 24 "" ""
+ U6 4
+ uC1 14
+Net 25 "/Main Controller of supplier/Temp_1_CTRL" "Temp_1_CTRL"
+ P2 1
+ uC1 5
+ R45 2
+Net 26 "/Main Controller of supplier/Voltage_Measure_CTRL" "Voltage_Measure_CTRL"
+ P2 11
+ uC1 3
+Net 27 "/Main Controller of supplier/FAN_COOLER_CTRL" "FAN_COOLER_CTRL"
+ P2 8
+ uC1 47
+Net 28 "/Main Controller of supplier/PWM_Voltage_Reg_CTRL" "PWM_Voltage_Reg_CTRL"
+ P2 9
+ uC1 48
+Net 29 "" ""
+ uC1 63
+ R6 2
+ C10 2
+Net 30 "" ""
+ C13 2
+ X1 1
+ uC1 62
+Net 31 "/Main Controller of supplier/SPI_FLASH_CS" "SPI_FLASH_CS"
+ U1 4
+ R7 1
+ uC1 28
+Net 32 "" ""
+ uC1 40
+ R8 2
+Net 33 "" ""
+ uC1 51
+ R10 2
+ Jp36 4
+Net 34 "+3.3VDAC" "+3.3VDAC"
+ P2 2
+ Jp36 1
+ R9 1
+ U6 1
+ R10 1
+ R11 1
+ R13 1
+ uC1 7
+ R45 1
+ U1 6
+ U1 5
+ U5 1
+ Q3 S
+ R4 1
+ R3 1
+ R2 1
+ R1 1
+ R5 1
+ R65 2
+ R7 2
+ C3 2
+ C2 1
+ uC1 59
+ C7 2
+ uC1 45
+ C14 2
+ C1 2
+ uC1 18
+ uC1 58
+ R12 1
+Net 35 "" ""
+ Jp40 12
+ P2 14
+Net 36 "/Main Controller of supplier/Temp_2_CTRL" "Temp_2_CTRL"
+ P2 3
+ uC1 6
+Net 37 "/Main Controller of supplier/Current_Measure_CTRL" "Current_Measure_CTRL"
+ P2 7
+ uC1 4
+Net 38 "/Main Controller of supplier/PWM_Current_Limit_Reg_CTRL" "PWM_Current_Limit_Reg_CTRL"
+ uC1 32
+ P2 5
+Net 39 "" ""
+ Jp40 10
+ P2 4
+Net 40 "" ""
+ uC1 54
+ uC1 64
+ C4 2
+ C9 2
+ P2 6
+ uC1 24
+ C8 2
+ C6 2
+ U5 24
+ U5 23
+ C5 2
+ Jp40 15
+ U6 24
+ U6 23
+ uC1 8
+ uC1 12
+Net 41 "/Main Controller of supplier/USB_DRIVE_CTRL" "USB_DRIVE_CTRL"
+ uC1 9
+ Q3 G
+Net 42 "GND" "GND"
+ U5 13
+ U5 12
+ uC1 46
+ uC1 50
+ C3 1
+ C7 1
+ C2 2
+ U5 11
+ uC1 60
+ C1 1
+ uC1 17
+ C5 1
+ uC1 55
+ uC1 2
+ Jp36 8
+ R8 1
+ D17 6
+ R66 1
+ Jp36 7
+ C6 1
+ C8 1
+ R41 2
+ U1 7
+ C4 1
+ R40 2
+ R44 2
+ U6 11
+ U6 12
+ C11 1
+ C10 1
+ C9 1
+ C14 1
+ C15 1
+ P2 12
+ P2 13
+ P2 15
+ Jp40 16
+ Jp40 19
+ Jp40 4
+ R26 2
+ C12 1
+ R37 1
+ C13 1
+ Q2 1
+ P2 16
+ U6 13
+ J1 4
+ Jp40 9
+ P2 10
+ J1 6
+ J1 5
+Net 43 "" ""
+ D17 1
+ C15 2
+ R67 2
+ R65 1
+ uC1 1
+Net 44 "" ""
+ R67 1
+ R66 2
+ D17 8
+Net 45 "" ""
+ U5 7
+ uC1 37
+Net 46 "" ""
+ D5 1
+ uC1 52
+Net 47 "" ""
+ uC1 38
+ U5 2
+Net 48 "" ""
+ uC1 20
+ U6 7
+Net 49 "" ""
+ Jp44 1
+ P7 1
+Net 50 "" ""
+ R39 1
+ R40 1
+ J1 2
+Net 51 "/Main Controller of supplier/V5_Mon" "V5_Mon"
+ R43 1
+ R44 1
+Net 52 "" ""
+ J1 1
+ R43 2
+Net 53 "/Main Controller of supplier/USB_D2" "USB_D2"
+ R38 2
+ uC1 57
+Net 54 "" ""
+ Q3 D
+ R42 2
+Net 55 "" ""
+ U5 22
+ U6 22
+ uC1 23
+Net 56 "" ""
+ R13 2
+ uC1 39
+ Jp36 5
+Net 57 "" ""
+ uC1 41
+ S5 3
+ S5 4
+ R5 2
+Net 58 "" ""
+ R3 2
+ S3 4
+ uC1 26
+ S3 3
+Net 59 "" ""
+ S2 4
+ S2 3
+ uC1 42
+ R2 2
+Net 60 "" ""
+ S1 3
+ R1 2
+ uC1 43
+ S1 4
+Net 61 "" ""
+ Jp43 1
+ P7 2
+Net 62 "" ""
+ uC1 35
+ U5 5
+Net 63 "" ""
+ uC1 25
+ S4 4
+ S4 3
+ R4 2
+Net 64 "" ""
+ J1 3
+ R41 1
+ R38 1
+ R42 1
+Net 65 "/Main Controller of supplier/USB_D1" "USB_D1"
+ uC1 56
+ R39 2
+Net 66 "" ""
+ R11 2
+ uC1 49
+ Jp36 3
+Net 67 "" ""
+ uC1 53
+ R9 2
+ Jp36 2
+Net 68 "/Main Controller of supplier/SPI_FLASH_CLK" "SPI_FLASH_CLK"
+ U1 2
+ uC1 21
+Net 69 "" ""
+ R25 2
+ uC1 44
+Net 70 "" ""
+ U5 9
+ uC1 30
+Net 71 "" ""
+ uC1 13
+ U6 5
+Net 72 "" ""
+ uC1 11
+ U6 8
+Net 73 "" ""
+ uC1 15
+ U6 3
+Net 74 "/Main Controller of supplier/SPI_FLASH_MISO" "SPI_FLASH_MISO"
+ U1 8
+ uC1 27
+Net 75 "/Main Controller of supplier/NRST" "NRST"
+ Jp36 6
+ U1 3
+ R12 2
+ uC1 33
+Net 76 "/Main Controller of supplier/SPI_FLASH_MOSI" "SPI_FLASH_MOSI"
+ uC1 22
+ U1 1
+Net 77 "" ""
+ S5 2
+ S5 1
+ S1 2
+ S1 1
+ S2 2
+ S4 1
+ S4 2
+ S3 1
+ S3 2
+ S2 1
+Net 78 "" ""
+ R6 1
+ C11 2
+Net 79 "" ""
+ X1 2
+ uC1 61
+ C12 2
+Net 80 "/Power Regulation Module/Fan_Cooler_EN" "Fan_Cooler_EN"
+ P1 7
+ R58 2
+Net 82 "" ""
+ R59 2
+ K4 1
+Net 83 "VAA" "VAA"
+ R59 1
+ D10 2
+ U2 8
+ U12 7
+ C38 1
+ RV1 2
+ D14 2
+ R68 2
+ Q5 3
+ U13 7
+ RV2 2
+Net 84 "" ""
+ R56 2
+ U2 7
+ R55 1
+Net 85 "" ""
+ Q6 2
+ R58 1
+Net 86 "-5V" "-5V"
+ D13 1
+ R63 1
+ U12 4
+ R62 1
+ U13 4
+Net 87 "" ""
+ U13 1
+ RV2 1
+Net 88 "/Power Regulation Module/PWM_Current_Limit_Reg" "PWM_Current_Limit_Reg"
+ P1 6
+ R15 1
+Net 89 "/Power Regulation Module/PWM_Voltage_Reg" "PWM_Voltage_Reg"
+ P1 10
+ R16 1
+Net 90 "" ""
+ RV1 1
+ U12 8
+Net 91 "" ""
+ U12 1
+ RV1 3
+Net 92 "" ""
+ R17 1
+ U13 3
+ R16 2
+ C19 1
+Net 93 "/Power Regulation Module/Current_Measure" "Current_Measure"
+ D7 2
+ R49 2
+ R48 1
+ C39 1
+ P1 8
+Net 94 "" ""
+ U12 2
+ R18 1
+ R20 2
+ C42 1
+Net 95 "" ""
+ Q4 1
+ Q1 2
+Net 96 "" ""
+ U2 1
+ D1 1
+Net 97 "" ""
+ R53 1
+ U2 6
+ R54 1
+Net 98 "" ""
+ K2 2
+ P1 4
+Net 99 "VPP" "VPP"
+ Q1 3
+ F1 2
+ R64 2
+ Q4 3
+Net 100 "" ""
+ U13 8
+ RV2 3
+Net 101 "+2.5V" "+2.5V"
+ P1 3
+ U8 2
+ C29 1
+ R33 1
+Net 102 "" ""
+ R21 2
+ R19 1
+ U12 3
+Net 103 "+1.8V" "+1.8V"
+ C31 1
+ U9 2
+ R35 1
+ P1 5
+Net 104 "" ""
+ K5 3
+ Q8 3
+Net 105 "" ""
+ K5 1
+ Q8 1
+Net 106 "" ""
+ R21 1
+ R22 1
+ Q1 1
+ C44 1
+ D16 2
+Net 107 "" ""
+ D9 2
+ Q5 1
+ K3 2
+Net 108 "" ""
+ R56 1
+ D20 2
+ Q5 2
+Net 109 "" ""
+ K4 3
+ D10 1
+ Q6 3
+Net 110 "" ""
+ R52 1
+ U2 5
+ R55 2
+Net 111 "" ""
+ R14 1
+ R15 2
+ U2 2
+ C16 1
+Net 112 "" ""
+ C42 2
+ R18 2
+ R48 2
+ U12 6
+ U2 3
+Net 113 "" ""
+ U13 6
+ C41 2
+ Q7 3
+ Q4 2
+Net 114 "" ""
+ C43 2
+ C41 1
+ R24 2
+ R23 2
+ D1 2
+ U13 2
+Net 115 "+3.3V" "+3.3V"
+ K2 3
+ P1 1
+ K1 3
+ C30 1
+ U9 3
+ U7 2
+ C26 1
+ R31 1
+ C27 1
+ U8 3
+Net 116 "" ""
+ Q8 2
+ K5 2
+Net 117 "" ""
+ R64 1
+ Q7 2
+ R63 2
+Net 118 "" ""
+ P1 2
+ K1 2
+Net 119 "/Power Regulation Module/Voltage_Measure" "Voltage_Measure"
+ R51 2
+ R50 1
+ D8 2
+ P1 12
+ C40 1
+Net 120 "" ""
+ P1 13
+ C23 1
+ L2 2
+Net 121 "" ""
+ D19 2
+ R69 1
+ R52 2
+Net 122 "/Power Regulation Module/12V_ZPWR" "12V_ZPWR"
+ R68 1
+ R53 2
+ U2 8
+ D18 2
+Net 123 "/Power Regulation Module/Output" "Output"
+ R51 1
+ P3 1
+ R69 2
+ R22 2
+ R20 1
+ C43 1
+ R23 1
+Net 124 "+8V" "+8V"
+ C21 1
+ R27 1
+ U4 6
+Net 125 "" ""
+ U4 5
+ R30 2
+ R28 1
+Net 126 "" ""
+ U4 8
+ R29 2
+Net 127 "" ""
+ U4 1
+ L1 2
+ D2 1
+Net 128 "" ""
+ D2 2
+ L2 1
+ C22 1
+ R30 1
+Net 129 "" ""
+ U5 19
+ Jp40 7
+Net 130 "" ""
+ U5 17
+ Jp40 5
+Net 131 "" ""
+ U5 15
+ Jp40 2
+Net 132 "" ""
+ Jp40 11
+ Jp40 14
+Net 134 "" ""
+ C20 1
+ U4 3
+Net 135 "" ""
+ Q2 2
+ R25 1
+ R26 1
+Net 136 "" ""
+ Jp40 24
+ U6 21
+Net 137 "" ""
+ U6 19
+ Jp40 22
+Net 138 "" ""
+ U6 17
+ Jp40 20
+Net 139 "" ""
+ Jp40 17
+ U6 15
+Net 140 "" ""
+ Jp40 21
+ U6 18
+Net 141 "" ""
+ U6 20
+ Jp40 23
+Net 142 "/TFT-LCD Touch Panel Module/V_bcklight_Minus_CTRL" "V_bcklight_Minus_CTRL"
+ Q2 3
+ Jp40 13
+Net 144 "" ""
+ U5 14
+ Jp40 1
+Net 145 "" ""
+ U5 16
+ Jp40 3
+Net 146 "" ""
+ U5 18
+ Jp40 6
+Net 147 "" ""
+ Jp40 8
+ U5 20
+Net 148 "" ""
+ Jp40 18
+ U6 16
+Net 149 "" ""
+ U4 7
+ R27 2
+ R29 1
+ L1 1
+Net 152 "" ""
+ L3 2
+ L3 2
+ L3 2
+ L3 2
+ F1 1
+ C37 1
+ L2_SUPP1 1
+ C34 1
+Net 153 "" ""
+ D3 3
+ L3 4
+ C24 1
+Net 154 "/Main Power Transformer Module/Fuse_SW_N_S" "Fuse_SW_N_S"
+ P5 1
+ P6 2
+Net 155 "" ""
+ R61 1
+ T1 6
+ D3 2
+ P4 4
+Net 156 "" ""
+ C35 1
+ R61 2
+Net 157 "" ""
+ C35 2
+ D11 1
+ D12 2
+Net 158 "" ""
+ D3 4
+ K3 3
+Net 159 "" ""
+ T1 5
+ T1 4
+ K3 5
+ P4 2
+ P4 3
+Net 160 "" ""
+ P4 1
+ T1 3
+ K3 4
+Net 161 "" ""
+ L3 3
+ L3 1
+ L3 1
+ L3 1
+ L3 1
+Net 162 "" ""
+ L2_SUPP1 2
+ D14 1
+Net 163 "" ""
+ D12 1
+ C36 2
+ R62 2
+Net 164 "" ""
+ R33 2
+ R34 1
+ U8 1
+Net 165 "" ""
+ U7 1
+ R31 2
+ R32 1
+Net 166 "" ""
+ R35 2
+ R36 1
+ U9 1
+Net 167 "" ""
+ D5 2
+ R37 2
+}
+#End

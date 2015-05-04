@@ -1,0 +1,440 @@
+EESchema Schematic File Version 2  date sob, 15 sty 2011, 17:45:43
+LIBS:Atmel_Arm
+LIBS:74xx-us
+LIBS:battery
+LIBS:crystal
+LIBS:display-kingbright
+LIBS:fuse
+LIBS:jumper
+LIBS:resistor
+LIBS:lpc2138
+LIBS:74xx
+LIBS:adc-dac
+LIBS:analog_switches
+LIBS:audio
+LIBS:brooktre
+LIBS:cmos4000
+LIBS:cmos_ieee
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:device
+LIBS:digital-audio
+LIBS:Discrete_Switches
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:linear
+LIBS:MacroBloc
+LIBS:memory
+LIBS:microchip
+LIBS:microchip1
+LIBS:microcontrollers
+LIBS:motorola
+LIBS:Nxp_uC
+LIBS:opto
+LIBS:philips
+LIBS:power
+LIBS:pspice
+LIBS:regul
+LIBS:siliconi
+LIBS:special
+LIBS:st_uC
+LIBS:SymbolsSimilarEN60617+oldDIN617
+LIBS:texas
+LIBS:transistors
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:xilinx
+LIBS:Pcb_Connectors
+LIBS:Symbols
+LIBS:Lcd_Connector
+LIBS:TS_Chip
+LIBS:Lab_Supplier-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 7 9
+Title "Digital power supply circuit"
+Date "15 jan 2011"
+Rev "V4_0"
+Comp "Michal Wolowik Private"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L VSS #PWR2
+U 1 1 4CC87471
+P 8850 3800
+F 0 "#PWR2" H 8850 3800 30  0001 C CNN
+F 1 "VSS" H 8850 3730 30  0000 C CNN
+	1    8850 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VSS #PWR1
+U 1 1 4CC87452
+P 8100 4800
+F 0 "#PWR1" H 8100 4800 30  0001 C CNN
+F 1 "VSS" H 8100 4730 30  0000 C CNN
+	1    8100 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 13001 Q1_S1
+U 1 1 4CC4835B
+P 5050 3400
+F 0 "Q1_S1" H 5300 3300 50  0000 C CNN
+F 1 "13001" H 5300 3550 50  0000 C CNN
+F 2 "TO92" H 5240 3400 30  0001 C CNN
+	1    5050 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 3100 2100 3100
+Wire Wire Line
+	4300 4250 4300 3950
+Wire Wire Line
+	4300 3950 4350 3950
+Wire Wire Line
+	4800 4250 4950 4250
+Wire Wire Line
+	4950 4250 4950 3700
+Connection ~ 3600 4250
+Wire Wire Line
+	3600 4150 3600 4250
+Connection ~ 2850 4250
+Wire Wire Line
+	2850 4250 3050 4250
+Wire Wire Line
+	5150 3100 5150 3200
+Connection ~ 5150 3100
+Connection ~ 7250 3400
+Wire Wire Line
+	7450 3400 6300 3400
+Wire Wire Line
+	7450 3400 7450 3800
+Wire Wire Line
+	7450 3800 8850 3800
+Connection ~ 8100 4200
+Wire Wire Line
+	7950 4200 8850 4200
+Connection ~ 7250 4200
+Wire Wire Line
+	6800 4200 7350 4200
+Connection ~ 6900 3400
+Wire Wire Line
+	6900 3550 6900 3400
+Wire Wire Line
+	7250 3400 7250 3550
+Wire Wire Line
+	6300 3400 6300 3600
+Wire Wire Line
+	6300 3600 6200 3600
+Wire Wire Line
+	6400 4200 6300 4200
+Wire Wire Line
+	6300 4200 6300 4000
+Wire Wire Line
+	6300 4000 6200 4000
+Wire Wire Line
+	4400 4750 5150 4750
+Connection ~ 4950 3700
+Wire Wire Line
+	5400 3700 4150 3700
+Wire Wire Line
+	3600 3600 3600 3750
+Wire Wire Line
+	3750 4750 3750 5100
+Wire Wire Line
+	3750 5100 3450 5100
+Connection ~ 2850 4750
+Wire Wire Line
+	3050 4750 2850 4750
+Wire Wire Line
+	3150 5100 2850 5100
+Wire Wire Line
+	2850 5100 2850 3800
+Wire Wire Line
+	2250 4000 2150 4000
+Connection ~ 2850 4000
+Wire Wire Line
+	5400 4200 5300 4200
+Wire Wire Line
+	2650 4000 2850 4000
+Wire Wire Line
+	2850 3400 2850 3100
+Connection ~ 2850 3100
+Wire Wire Line
+	3750 3700 3600 3700
+Connection ~ 3600 3700
+Wire Wire Line
+	5400 3900 5150 3900
+Wire Wire Line
+	3550 4750 4000 4750
+Connection ~ 3750 4750
+Wire Wire Line
+	3600 3200 3600 3100
+Wire Wire Line
+	5300 4200 5300 4500
+Wire Wire Line
+	5300 4500 2850 4500
+Connection ~ 2850 4500
+Wire Wire Line
+	2700 3100 3050 3100
+Wire Wire Line
+	7250 4200 7250 4050
+Wire Wire Line
+	6900 3950 6900 4200
+Connection ~ 6900 4200
+Wire Wire Line
+	8100 4300 8100 4200
+Wire Wire Line
+	8100 4700 8100 4800
+Wire Notes Line
+	10000 4350 10000 3650
+Wire Notes Line
+	10000 4350 8550 4350
+Wire Notes Line
+	8550 4350 8550 3650
+Wire Notes Line
+	8550 3650 10000 3650
+Wire Wire Line
+	3550 3100 5300 3100
+Wire Wire Line
+	5300 3100 5300 3400
+Wire Wire Line
+	5300 3400 5400 3400
+Connection ~ 3600 3100
+Wire Wire Line
+	5150 4750 5150 3600
+Connection ~ 5150 3900
+Wire Wire Line
+	4850 3400 4650 3400
+Wire Wire Line
+	3650 4250 3550 4250
+Wire Wire Line
+	4150 4250 4500 4250
+Connection ~ 4300 4250
+Wire Wire Line
+	4850 3950 4950 3950
+Connection ~ 4950 3950
+Wire Wire Line
+	4150 3400 3800 3400
+Wire Wire Line
+	3800 3400 3800 4100
+Wire Wire Line
+	3800 4100 3650 4100
+Wire Wire Line
+	3650 4100 3650 4200
+Wire Wire Line
+	3650 4200 3600 4200
+Connection ~ 3600 4200
+Text GLabel 8850 4200 2    60   Input ~ 0
++8V_SMPS
+Text GLabel 2150 4000 0    60   Input ~ 0
+N_230V
+Text GLabel 2100 3100 0    60   Input ~ 0
+L_230V
+Text Notes 8900 4100 0    60   ~ 12
+8V/500mA
+Text Notes 8700 4000 0    40   Italic 8
+Digital part supplier
+$Comp
+L DIODE D4_S1
+U 1 1 4CC07718
+P 3950 3700
+F 0 "D4_S1" H 4000 3500 40  0000 C CNN
+F 1 "1N4148" H 4000 3600 40  0000 C CNN
+	1    3950 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D2_S1
+U 1 1 4CC0771F
+P 3600 3950
+F 0 "D2_S1" H 3550 3800 40  0000 C CNN
+F 1 "C_12V" H 3600 3850 40  0000 C CNN
+	1    3600 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L CAPAPOL C6_S1
+U 1 1 4CC0941C
+P 8100 4500
+F 0 "C6_S1" H 8150 4600 50  0000 L CNN
+F 1 "100uF/16V" H 8150 4400 50  0000 L CNN
+	1    8100 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L1_S1
+U 1 1 4CC09402
+P 7650 4200
+F 0 "L1_S1" V 7850 4200 50  0000 C CNN
+F 1 "68uH/1A" V 7750 4200 50  0000 C CNN
+	1    7650 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TRANSFO2 B1_S1
+U 1 1 4CC07AC9
+P 5800 3800
+F 0 "B1_S1" H 5800 4350 70  0000 C CNN
+F 1 "SPI_IND" H 5800 3250 70  0000 C CNN
+	1    5800 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R8_S1
+U 1 1 4CC07767
+P 7250 3800
+F 0 "R8_S1" V 7350 3800 50  0000 C CNN
+F 1 "2k" V 7250 3800 50  0000 C CNN
+	1    7250 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R7_S1
+U 1 1 4CC07766
+P 3900 4250
+F 0 "R7_S1" V 3980 4250 50  0000 C CNN
+F 1 "30R" V 3900 4250 50  0000 C CNN
+	1    3900 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L R R6_S1
+U 1 1 4CC07765
+P 3300 4750
+F 0 "R6_S1" V 3380 4750 50  0000 C CNN
+F 1 "67k" V 3300 4750 50  0000 C CNN
+	1    3300 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L R R5_S1
+U 1 1 4CC07763
+P 3300 4250
+F 0 "R5_S1" V 3380 4250 50  0000 C CNN
+F 1 "560k" V 3300 4250 50  0000 C CNN
+	1    3300 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L R R4_S1
+U 1 1 4CC07762
+P 4600 3950
+F 0 "R4_S1" V 4500 4000 50  0000 C CNN
+F 1 "10k" V 4600 3950 50  0000 C CNN
+	1    4600 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L R R3_S1
+U 1 1 4CC07760
+P 4400 3400
+F 0 "R3_S1" V 4300 3450 50  0000 C CNN
+F 1 "30R" V 4400 3400 50  0000 C CNN
+	1    4400 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2_S1
+U 1 1 4CC0775E
+P 3300 3100
+F 0 "R2_S1" V 3380 3100 50  0000 C CNN
+F 1 "1R" V 3300 3100 50  0000 C CNN
+	1    3300 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L R R1_S1
+U 1 1 4CC0775C
+P 2450 3100
+F 0 "R1_S1" V 2530 3100 50  0000 C CNN
+F 1 "1R" V 2450 3100 50  0000 C CNN
+	1    2450 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L DIODE D5_S1
+U 1 1 4CC0771A
+P 6600 4200
+F 0 "D5_S1" H 6600 4300 50  0000 C CNN
+F 1 "1N5816" H 6600 4100 50  0000 C CNN
+	1    6600 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D3_S1
+U 1 1 4CC07717
+P 4200 4750
+F 0 "D3_S1" H 4200 4850 50  0000 C CNN
+F 1 "1N4007" H 4200 4650 50  0000 C CNN
+	1    4200 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L DIODE D1_S1
+U 1 1 4CC07710
+P 2450 4000
+F 0 "D1_S1" H 2450 4100 40  0000 C CNN
+F 1 "1N4007" H 2450 3900 40  0000 C CNN
+	1    2450 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAPAPOL C5_S1
+U 1 1 4CC076DD
+P 6900 3750
+F 0 "C5_S1" H 7000 3750 50  0000 L CNN
+F 1 "100uF/16V" H 7000 3850 50  0000 L CNN
+	1    6900 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L CAPAPOL C2_S1
+U 1 1 4CC076DB
+P 3600 3400
+F 0 "C2_S1" H 3700 3600 40  0000 L CNN
+F 1 "47uF/50V" H 3700 3500 40  0000 L CNN
+	1    3600 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAPAPOL C1_S1
+U 1 1 4CC076D7
+P 2850 3600
+F 0 "C1_S1" H 2400 3500 40  0000 L CNN
+F 1 "2.2uF/400V" H 2300 3600 40  0000 L CNN
+	1    2850 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C4_S1
+U 1 1 4CC076D2
+P 4650 4250
+F 0 "C4_S1" V 4500 4300 40  0000 L CNN
+F 1 "1nF" V 4550 4350 40  0000 L CNN
+	1    4650 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L C C3_S1
+U 1 1 4CC076CC
+P 3300 5100
+F 0 "C3_S1" V 3400 5150 50  0000 L CNN
+F 1 "3.3nF/1kV" V 3500 5150 50  0000 L CNN
+	1    3300 5100
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

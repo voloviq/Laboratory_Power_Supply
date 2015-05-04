@@ -1,0 +1,49 @@
+#Reset procedure
+
+reset halt
+sleep 100
+
+wait_halt
+sleep 100
+
+poll
+sleep 100
+
+flash probe 0
+sleep 100
+
+sleep 100
+
+flash protect_check 0
+
+sleep 100
+
+flash info 0
+
+sleep 100
+
+sleep 100
+
+#flash write_image Output/Lab_s_V1_0-at91sam7s128-flash.hex
+#flash write_image Lab_s_V1_0-at91sam7s128-flash.bin 0x00100000 bin
+#flash write_image Lab_s_V1_0-at91sam7s128-flash.elf
+
+# Write image to SRAM Memory
+#load_image Lab_s_V1_0-at91sam7s128-sram.elf
+flash write_image Lab_s_V1_0-at91sam7s128-sram.elf
+
+#sleep 100
+
+#reset run
+
+#resume 0
+
+#sleep 100
+
+#shutdown
+
+
+
+
+
+

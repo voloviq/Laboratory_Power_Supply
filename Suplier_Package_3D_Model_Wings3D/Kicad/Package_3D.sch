@@ -1,0 +1,98 @@
+EESchema Schematic File Version 2  date pią, 11 mar 2011, 19:00:24
+LIBS:74xx
+LIBS:adc-dac
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:brooktre
+LIBS:cmos4000
+LIBS:cmos_ieee
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:device
+LIBS:digital-audio
+LIBS:Discrete_Switches
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:linear
+LIBS:MacroBloc
+LIBS:memory
+LIBS:microchip
+LIBS:microchip1
+LIBS:microcontrollers
+LIBS:motorola
+LIBS:Nxp_uC
+LIBS:opto
+LIBS:philips
+LIBS:power
+LIBS:pspice
+LIBS:regul
+LIBS:siliconi
+LIBS:special
+LIBS:st_uC
+LIBS:SymbolsSimilarEN60617+oldDIN617
+LIBS:texas
+LIBS:transistors
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:xilinx
+LIBS:Atmel_Arm
+LIBS:Symbols
+EELAYER 43  0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 1 1
+Title "Laboratory Supply Package"
+Date "11 mar 2011"
+Rev "V1_0"
+Comp "VOLOVIQUE"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L VOLOVIQUE V4
+U 1 1 4D7A6327
+P 8000 3800
+F 0 "V4" H 8000 4000 60  0000 C CNN
+F 1 "BACK_VIEW" H 8000 4100 60  0000 C CNN
+	1    8000 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L VOLOVIQUE V1
+U 1 1 4D7A62E0
+P 4950 3800
+F 0 "V1" H 4950 4000 60  0000 C CNN
+F 1 "FRONT_VIEW" H 4950 4100 60  0000 C CNN
+	1    4950 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L VOLOVIQUE V3
+U 1 1 4D7A62DC
+P 7100 3800
+F 0 "V3" H 7100 4000 60  0000 C CNN
+F 1 "MAIN_CHASSIS_LOWER" H 7100 4100 60  0000 C CNN
+	1    7100 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L VOLOVIQUE V2
+U 1 1 4D7A62D8
+P 5900 3800
+F 0 "V2" H 5900 4000 60  0000 C CNN
+F 1 "MAIN_CHASSIS_UPPER" H 5900 4100 60  0000 C CNN
+	1    5900 3800
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

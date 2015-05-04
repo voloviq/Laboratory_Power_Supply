@@ -1,0 +1,31 @@
+Cmp-Mod V01 Created by CvPCB (2011-01-22 BZR 2755)-stable date = pią, 11 mar 2011, 19:01:11
+
+BeginCmp
+TimeStamp = /4D7A62E0;
+Reference = V1;
+ValeurCmp = FRONT_VIEW;
+IdModule  = Volovique_Emblemat;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7A62D8;
+Reference = V2;
+ValeurCmp = MAIN_CHASSIS_UPPER;
+IdModule  = Volovique_Emblemat;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7A62DC;
+Reference = V3;
+ValeurCmp = MAIN_CHASSIS_LOWER;
+IdModule  = Volovique_Emblemat;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D7A6327;
+Reference = V4;
+ValeurCmp = BACK_VIEW;
+IdModule  = Volovique_Emblemat;
+EndCmp
+
+EndListe

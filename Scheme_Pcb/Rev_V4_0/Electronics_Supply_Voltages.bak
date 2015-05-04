@@ -1,0 +1,485 @@
+EESchema Schematic File Version 2  date sob, 15 sty 2011, 17:14:11
+LIBS:Atmel_Arm
+LIBS:74xx-us
+LIBS:battery
+LIBS:crystal
+LIBS:display-kingbright
+LIBS:fuse
+LIBS:jumper
+LIBS:resistor
+LIBS:lpc2138
+LIBS:74xx
+LIBS:adc-dac
+LIBS:analog_switches
+LIBS:audio
+LIBS:brooktre
+LIBS:cmos4000
+LIBS:cmos_ieee
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:device
+LIBS:digital-audio
+LIBS:Discrete_Switches
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:linear
+LIBS:MacroBloc
+LIBS:memory
+LIBS:microchip
+LIBS:microchip1
+LIBS:microcontrollers
+LIBS:motorola
+LIBS:Nxp_uC
+LIBS:opto
+LIBS:philips
+LIBS:power
+LIBS:pspice
+LIBS:regul
+LIBS:siliconi
+LIBS:special
+LIBS:st_uC
+LIBS:SymbolsSimilarEN60617+oldDIN617
+LIBS:texas
+LIBS:transistors
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:xilinx
+LIBS:Pcb_Connectors
+LIBS:Symbols
+LIBS:Lcd_Connector
+LIBS:TS_Chip
+LIBS:Lab_Supplier-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 4 8
+Title "Different voltage produce circuit"
+Date "15 jan 2011"
+Rev "V4_0"
+Comp "Michal Wolowik Private"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L VSS #PWR125
+U 1 1 4CC873C4
+P 9300 4100
+F 0 "#PWR125" H 9300 4100 30  0001 C CNN
+F 1 "VSS" H 9300 4030 30  0000 C CNN
+	1    9300 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L VSS #PWR123
+U 1 1 4CC873BD
+P 7700 3850
+F 0 "#PWR123" H 7700 3850 30  0001 C CNN
+F 1 "VSS" H 7700 3780 30  0000 C CNN
+	1    7700 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L VSS #PWR124
+U 1 1 4CC873B7
+P 8950 4500
+F 0 "#PWR124" H 8950 4500 30  0001 C CNN
+F 1 "VSS" H 8950 4430 30  0000 C CNN
+	1    8950 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L VSS #PWR119
+U 1 1 4CC873A5
+P 6750 4100
+F 0 "#PWR119" H 6750 4100 30  0001 C CNN
+F 1 "VSS" H 6750 4030 30  0000 C CNN
+	1    6750 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L VSS #PWR118
+U 1 1 4CC873A2
+P 6400 4500
+F 0 "#PWR118" H 6400 4500 30  0001 C CNN
+F 1 "VSS" H 6400 4430 30  0000 C CNN
+	1    6400 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L VSS #PWR117
+U 1 1 4CC8739C
+P 5150 3850
+F 0 "#PWR117" H 5150 3850 30  0001 C CNN
+F 1 "VSS" H 5150 3780 30  0000 C CNN
+	1    5150 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 3750 2500 3850
+$Comp
+L VSS #PWR114
+U 1 1 4CC87387
+P 4100 4100
+F 0 "#PWR114" H 4100 4100 30  0001 C CNN
+F 1 "VSS" H 4100 4030 30  0000 C CNN
+	1    4100 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L VSS #PWR113
+U 1 1 4CC87384
+P 3750 4500
+F 0 "#PWR113" H 3750 4500 30  0001 C CNN
+F 1 "VSS" H 3750 4430 30  0000 C CNN
+	1    3750 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L VSS #PWR112
+U 1 1 4CC87381
+P 2500 3850
+F 0 "#PWR112" H 2500 3850 30  0001 C CNN
+F 1 "VSS" H 2500 3780 30  0000 C CNN
+	1    2500 3850
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	4450 2650 2100 2650
+Wire Notes Line
+	4700 4600 7150 4600
+Wire Notes Line
+	4700 4600 4700 2650
+Wire Wire Line
+	6800 5250 7000 5250
+Wire Wire Line
+	7000 5250 7000 5350
+Wire Wire Line
+	9300 4000 9300 4100
+Wire Wire Line
+	7700 3450 7700 3200
+Wire Wire Line
+	2500 3450 2500 3200
+Wire Wire Line
+	4100 4000 4100 4100
+Wire Wire Line
+	6750 3700 6750 3200
+Wire Wire Line
+	5150 3450 5150 3200
+Wire Notes Line
+	4450 2650 4450 4600
+Wire Wire Line
+	6950 3200 6300 3200
+Connection ~ 3750 3200
+Wire Wire Line
+	3750 3800 3750 3900
+Wire Wire Line
+	2550 3200 2450 3200
+Connection ~ 2500 3200
+Wire Wire Line
+	3750 3300 3750 3200
+Wire Wire Line
+	3750 4400 3750 4500
+Wire Wire Line
+	3650 3200 4200 3200
+Connection ~ 4100 3200
+Wire Wire Line
+	3750 3850 3100 3850
+Wire Wire Line
+	3100 3850 3100 3750
+Connection ~ 3750 3850
+Connection ~ 6400 3850
+Wire Wire Line
+	5750 3750 5750 3850
+Wire Wire Line
+	5750 3850 6400 3850
+Connection ~ 6750 3200
+Wire Wire Line
+	6400 4400 6400 4500
+Wire Wire Line
+	6400 3300 6400 3200
+Connection ~ 5150 3200
+Wire Wire Line
+	5200 3200 5100 3200
+Wire Wire Line
+	6400 3800 6400 3900
+Connection ~ 6400 3200
+Connection ~ 8950 3850
+Wire Wire Line
+	8300 3750 8300 3850
+Wire Wire Line
+	8300 3850 8950 3850
+Connection ~ 9300 3200
+Wire Wire Line
+	8850 3200 9400 3200
+Wire Wire Line
+	8950 4400 8950 4500
+Wire Wire Line
+	8950 3200 8950 3300
+Connection ~ 7700 3200
+Wire Wire Line
+	7750 3200 7650 3200
+Wire Wire Line
+	8950 3800 8950 3900
+Connection ~ 8950 3200
+Wire Notes Line
+	7400 4600 9650 4600
+Wire Notes Line
+	7400 4600 7400 2650
+Wire Notes Line
+	7400 2650 9650 2650
+Wire Notes Line
+	9650 2650 9650 4600
+Wire Wire Line
+	5150 3750 5150 3850
+Wire Wire Line
+	6750 4000 6750 4100
+Wire Wire Line
+	4100 3700 4100 3200
+Wire Wire Line
+	7700 3750 7700 3850
+Wire Wire Line
+	9300 3700 9300 3200
+Wire Wire Line
+	6300 5250 6100 5250
+Wire Wire Line
+	5700 5250 5400 5250
+Wire Notes Line
+	7150 4600 7150 2650
+Wire Notes Line
+	7150 2650 4700 2650
+Wire Notes Line
+	2100 2650 2100 4600
+Wire Notes Line
+	2100 4600 4450 4600
+Text GLabel 2450 3200 0    30   Input ~ 0
++8V_SMPS
+Text Notes 2250 3100 0    30   ~ 0
+take from SMPS +8[V]
+Text Notes 2250 3050 0    30   ~ 0
+Main supply
+Text GLabel 5400 5250 0    60   Input ~ 0
+PWR_LED
+$Comp
+L GND #PWR121
+U 1 1 4BD1CCEC
+P 7000 5350
+F 0 "#PWR121" H 7000 5350 30  0001 C CNN
+F 1 "GND" H 7000 5280 30  0001 C CNN
+	1    7000 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R37
+U 1 1 4BD1CCE4
+P 6550 5250
+F 0 "R37" V 6630 5250 50  0000 C CNN
+F 1 "150R" V 6550 5250 50  0000 C CNN
+	1    6550 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D5
+U 1 1 4BD1CCDD
+P 5900 5250
+F 0 "D5" H 5900 5350 50  0000 C CNN
+F 1 "LED" H 5900 5150 50  0000 C CNN
+	1    5900 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR122
+U 1 1 4BBCC933
+P 7650 3200
+F 0 "#PWR122" H 7650 3160 30  0001 C CNN
+F 1 "+3.3V" H 7650 3310 30  0000 C CNN
+	1    7650 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +1.8V #PWR126
+U 1 1 4BBCC918
+P 9400 3200
+F 0 "#PWR126" H 9400 3340 20  0001 C CNN
+F 1 "+1.8V" H 9400 3310 30  0000 C CNN
+	1    9400 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L LM1117 U9
+U 1 1 4BB118DC
+P 8300 3300
+F 0 "U9" H 8300 3550 60  0000 C CNN
+F 1 "LM1117" H 8300 3650 60  0000 C CNN
+	1    8300 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C31
+U 1 1 4BB118D8
+P 9300 3850
+F 0 "C31" H 9350 3950 50  0000 L CNN
+F 1 "100uF/6.3V" V 9100 3800 50  0000 L CNN
+	1    9300 3850
+	1    0    0    -1  
+$EndComp
+Text Notes 7800 2800 0    60   ~ 0
+1.8V Voltage Regulator\n
+$Comp
+L C C30
+U 1 1 4BB118D6
+P 7700 3600
+F 0 "C30" H 7750 3700 50  0000 L CNN
+F 1 "10uF/6V3" V 7500 3600 50  0000 L CNN
+	1    7700 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R35
+U 1 1 4BB118D4
+P 8950 3550
+F 0 "R35" V 9030 3550 50  0000 C CNN
+F 1 "3k3" V 8950 3550 50  0000 C CNN
+	1    8950 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R36
+U 1 1 4BB118D3
+P 8950 4150
+F 0 "R36" V 9030 4150 50  0000 C CNN
+F 1 "1k5" V 8950 4150 50  0000 C CNN
+	1    8950 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +2.5V #PWR120
+U 1 1 4BB117D8
+P 6950 3200
+F 0 "#PWR120" H 6950 3150 20  0001 C CNN
+F 1 "+2.5V" H 6950 3300 30  0000 C CNN
+	1    6950 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L +3.3V #PWR116
+U 1 1 4BB117A7
+P 5100 3200
+F 0 "#PWR116" H 5100 3160 30  0001 C CNN
+F 1 "+3.3V" H 5100 3310 30  0000 C CNN
+	1    5100 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LM1117 U8
+U 1 1 4BB11799
+P 5750 3300
+F 0 "U8" H 5750 3550 60  0000 C CNN
+F 1 "LM1117" H 5750 3650 60  0000 C CNN
+	1    5750 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C29
+U 1 1 4BB11795
+P 6750 3850
+F 0 "C29" H 6800 3950 50  0000 L CNN
+F 1 "100uF/6.3V" V 6550 3800 50  0000 L CNN
+	1    6750 3850
+	1    0    0    -1  
+$EndComp
+Text Notes 5250 2800 0    60   ~ 0
+2.5V Voltage Regulator\n
+$Comp
+L C C27
+U 1 1 4BB11793
+P 5150 3600
+F 0 "C27" H 5200 3700 50  0000 L CNN
+F 1 "10uF/6V3" V 4950 3600 50  0000 L CNN
+	1    5150 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R33
+U 1 1 4BB11791
+P 6400 3550
+F 0 "R33" V 6480 3550 50  0000 C CNN
+F 1 "2k7" V 6400 3550 50  0000 C CNN
+	1    6400 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R34
+U 1 1 4BB11790
+P 6400 4150
+F 0 "R34" V 6480 4150 50  0000 C CNN
+F 1 "2k7" V 6400 4150 50  0000 C CNN
+	1    6400 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R32
+U 1 1 4BB1171C
+P 3750 4150
+F 0 "R32" V 3830 4150 50  0000 C CNN
+F 1 "4k3" V 3750 4150 50  0000 C CNN
+	1    3750 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R31
+U 1 1 4BB11719
+P 3750 3550
+F 0 "R31" V 3830 3550 50  0000 C CNN
+F 1 "2k7" V 3750 3550 50  0000 C CNN
+	1    3750 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C25
+U 1 1 4BB106AC
+P 2500 3600
+F 0 "C25" H 2550 3700 50  0000 L CNN
+F 1 "10uF/16V" V 2300 3600 50  0000 L CNN
+	1    2500 3600
+	1    0    0    -1  
+$EndComp
+Text Notes 2600 2800 0    60   ~ 0
+3.3V Voltage Regulator\n
+$Comp
+L C C26
+U 1 1 4BB105B2
+P 4100 3850
+F 0 "C26" H 4150 3950 50  0000 L CNN
+F 1 "100uF/6.3V" V 3900 3800 50  0000 L CNN
+	1    4100 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR115
+U 1 1 4BB104C0
+P 4200 3200
+F 0 "#PWR115" H 4200 3160 30  0001 C CNN
+F 1 "+3.3V" H 4200 3310 30  0000 C CNN
+	1    4200 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L LM1117 U7
+U 1 1 4BB10412
+P 3100 3300
+F 0 "U7" H 3100 3550 60  0000 C CNN
+F 1 "LM1117" H 3100 3650 60  0000 C CNN
+	1    3100 3300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
